@@ -1,0 +1,364 @@
+{
+  "dialogues": [
+    {
+      "id": "g-01",
+      "mode": "GENERAL",
+      "situation": "아침에 이웃을 만났을 때",
+      "order": 1,
+      "utterances": [
+        {"speaker": "A", "ja": "おはようございます。", "ko": "안녕하세요. (아침 인사)", "romaji": "오하요우 고자이마스", "polite": true, "tip": "A와 B를 번갈아 천천히 따라 해 보세요."},
+        {"speaker": "B", "ja": "おはようございます。", "ko": "안녕하세요.", "romaji": "오하요우 고자이마스", "polite": true, "tip": ""},
+        {"speaker": "A", "ja": "いいお天気ですね。", "ko": "날씨가 좋네요.", "romaji": "이이 오텐키 데스 네", "polite": true, "tip": ""},
+        {"speaker": "B", "ja": "はい、いいお天気ですね。", "ko": "네, 참 좋네요.", "romaji": "하이, 이이 오텐키 데스 네", "polite": true, "tip": ""}
+      ]
+    },
+    {
+      "id": "g-02",
+      "mode": "GENERAL",
+      "situation": "낮에 만나 안부를 묻기",
+      "order": 2,
+      "utterances": [
+        {"speaker": "A", "ja": "こんにちは。", "ko": "안녕하세요.", "romaji": "곤니치와", "polite": true, "tip": "짧은 인사부터 시작해 전체 흐름을 익혀요."},
+        {"speaker": "B", "ja": "こんにちは。", "ko": "안녕하세요.", "romaji": "곤니치와", "polite": true, "tip": ""},
+        {"speaker": "A", "ja": "お元気ですか。", "ko": "잘 지내세요?", "romaji": "오겐키 데스 카", "polite": true, "tip": ""},
+        {"speaker": "B", "ja": "はい、元気です。", "ko": "네, 잘 지내요.", "romaji": "하이, 겐키 데스", "polite": true, "tip": ""}
+      ]
+    },
+    {
+      "id": "g-03",
+      "mode": "GENERAL",
+      "situation": "날씨 이야기와 산책 권하기",
+      "order": 3,
+      "utterances": [
+        {"speaker": "A", "ja": "いいお天気ですね。", "ko": "날씨가 좋네요.", "romaji": "이이 오텐키 데스 네", "polite": true, "tip": "'네'를 가볍게 붙이면 자연스러워요."},
+        {"speaker": "B", "ja": "そうですね。", "ko": "그렇네요.", "romaji": "소우 데스 네", "polite": true, "tip": ""},
+        {"speaker": "A", "ja": "散歩に行きませんか。", "ko": "산책 갈래요?", "romaji": "산포 니 이키마센 카", "polite": true, "tip": ""},
+        {"speaker": "B", "ja": "はい、行きましょう。", "ko": "네, 가요.", "romaji": "하이, 이키마쇼우", "polite": true, "tip": ""}
+      ]
+    },
+    {
+      "id": "g-04",
+      "mode": "GENERAL",
+      "situation": "오랜만에 만나 반가워하기",
+      "order": 4,
+      "utterances": [
+        {"speaker": "A", "ja": "お元気ですか。", "ko": "잘 지내세요?", "romaji": "오겐키 데스 카", "polite": true, "tip": "네 줄을 한 호흡으로 이어 말해 보세요."},
+        {"speaker": "B", "ja": "はい、ありがとう。", "ko": "네, 고마워요.", "romaji": "하이, 아리가토우", "polite": true, "tip": ""},
+        {"speaker": "A", "ja": "また会えてうれしいです。", "ko": "다시 만나서 반가워요.", "romaji": "마타 아에테 우레시이 데스", "polite": true, "tip": ""},
+        {"speaker": "B", "ja": "こちらこそ。", "ko": "저야 말로요.", "romaji": "코치라코소", "polite": true, "tip": ""}
+      ]
+    },
+    {
+      "id": "g-05",
+      "mode": "GENERAL",
+      "situation": "도움을 받고 감사하기",
+      "order": 5,
+      "utterances": [
+        {"speaker": "A", "ja": "ありがとうございます。", "ko": "감사합니다.", "romaji": "아리가토우 고자이마스", "polite": true, "tip": "'아리가토우' 다음에 숨을 한 번 쉬어요."},
+        {"speaker": "B", "ja": "どういたしまして。", "ko": "천만에요.", "romaji": "도우 이타시마시테", "polite": true, "tip": ""},
+        {"speaker": "A", "ja": "とても助かりました。", "ko": "많이 도움이 됐어요.", "romaji": "토테모 다스카리마시타", "polite": true, "tip": ""},
+        {"speaker": "B", "ja": "いいえ、大丈夫です。", "ko": "아니요, 괜찮아요.", "romaji": "이리에, 다이조부 데스", "polite": true, "tip": ""}
+      ]
+    },
+    {
+      "id": "g-06",
+      "mode": "GENERAL",
+      "situation": "길에서 화장실 물어보기",
+      "order": 6,
+      "utterances": [
+        {"speaker": "A", "ja": "すみません。", "ko": "실례합니다.", "romaji": "스미마센", "polite": true, "tip": "먼저 짧게 불러 세우는 느낌으로."},
+        {"speaker": "B", "ja": "はい、何ですか。", "ko": "네, 무슨 일인가요?", "romaji": "하이, 나니 데스 카", "polite": true, "tip": ""},
+        {"speaker": "A", "ja": "トイレはどこですか。", "ko": "화장실이 어디인가요?", "romaji": "토이레와 도코 데스 카", "polite": true, "tip": ""},
+        {"speaker": "B", "ja": "あそこです。", "ko": "저기예요.", "romaji": "아소코 데스", "polite": true, "tip": ""}
+      ]
+    },
+    {
+      "id": "g-07",
+      "mode": "GENERAL",
+      "situation": "처음 만나 인사 나누기",
+      "order": 7,
+      "utterances": [
+        {"speaker": "A", "ja": "はじめまして。", "ko": "처음 뵙겠습니다.", "romaji": "하지메마시테", "polite": true, "tip": "A와 B가 같은 인사를 주고받아요."},
+        {"speaker": "B", "ja": "はじめまして。", "ko": "처음 뵙겠습니다.", "romaji": "하지메마시테", "polite": true, "tip": ""},
+        {"speaker": "A", "ja": "よろしくお願いします。", "ko": "잘 부탁드립니다.", "romaji": "요로시쿠 오네가이 시마스", "polite": true, "tip": ""},
+        {"speaker": "B", "ja": "こちらこそ、よろしくお願いします。", "ko": "저야 말로 잘 부탁드립니다.", "romaji": "코치라코소, 요로시쿠 오네가이 시마스", "polite": true, "tip": ""}
+      ]
+    },
+    {
+      "id": "g-08",
+      "mode": "GENERAL",
+      "situation": "헤어질 때 인사",
+      "order": 8,
+      "utterances": [
+        {"speaker": "A", "ja": "また会いましょう。", "ko": "또 만나요.", "romaji": "마타 아이마쇼우", "polite": true, "tip": "마지막 두 줄까지 천천히 이어가요."},
+        {"speaker": "B", "ja": "はい、また会いましょう。", "ko": "네, 또 만나요.", "romaji": "하이, 마타 아이마쇼우", "polite": true, "tip": ""},
+        {"speaker": "A", "ja": "気をつけてくださいね。", "ko": "조심해서 가세요.", "romaji": "키오츠케테 쿠다사이 네", "polite": true, "tip": ""},
+        {"speaker": "B", "ja": "ありがとう。さようなら。", "ko": "감사합니다. 안녕히 가세요.", "romaji": "아리가토우. 사요우나라", "polite": true, "tip": ""}
+      ]
+    },
+    {
+      "id": "s-01",
+      "mode": "SHOP",
+      "situation": "가게에 들어갔을 때 (주인과 손님)",
+      "order": 1,
+      "utterances": [
+        {"speaker": "A", "ja": "いらっしゃいませ。", "ko": "어서 오세요. (주인)", "romaji": "이랏샤이마세", "polite": true, "tip": "주인 A, 손님 B 역할을 나눠 따라 해요."},
+        {"speaker": "B", "ja": "こんにちは。", "ko": "안녕하세요. (손님)", "romaji": "곤니치와", "polite": true, "tip": ""},
+        {"speaker": "A", "ja": "何をお探しですか。", "ko": "무엇을 찾으세요?", "romaji": "나니 오 오사가시 데스 카", "polite": true, "tip": ""},
+        {"speaker": "B", "ja": "みかんをください。", "ko": "귤 주세요.", "romaji": "미칸오 쿠다사이", "polite": true, "tip": ""}
+      ]
+    },
+    {
+      "id": "s-02",
+      "mode": "SHOP",
+      "situation": "계산을 마칠 때",
+      "order": 2,
+      "utterances": [
+        {"speaker": "A", "ja": "ありがとうございました。", "ko": "감사했습니다. (주인)", "romaji": "아리가토우 고자이마시타", "polite": true, "tip": "끝을 '시타'로 바꿔 말해 보세요."},
+        {"speaker": "B", "ja": "はい、ありがとうございます。", "ko": "네, 감사합니다. (손님)", "romaji": "하이, 아리가토우 고자이마스", "polite": true, "tip": ""},
+        {"speaker": "A", "ja": "また来てくださいね。", "ko": "또 오세요.", "romaji": "마타 키테 쿠다사이 네", "polite": true, "tip": ""},
+        {"speaker": "B", "ja": "はい、また来ます。", "ko": "네, 또 올게요.", "romaji": "하이, 마타 키마스", "polite": true, "tip": ""}
+      ]
+    },
+    {
+      "id": "s-03",
+      "mode": "SHOP",
+      "situation": "포장해 드릴지 물을 때",
+      "order": 3,
+      "utterances": [
+        {"speaker": "A", "ja": "お持ち帰りですか。", "ko": "가져가시나요? (주인)", "romaji": "오모치카에리 데스 카", "polite": true, "tip": "'오모치카에리'를 박자 맞춰 말해요."},
+        {"speaker": "B", "ja": "はい、お持ち帰りです。", "ko": "네, 가져갈게요.", "romaji": "하이, 오모치카에리 데스", "polite": true, "tip": ""},
+        {"speaker": "A", "ja": "袋に入れましょうか。", "ko": "봉투에 넣을까요?", "romaji": "후쿠로 니 이레마쇼우 카", "polite": true, "tip": ""},
+        {"speaker": "B", "ja": "はい、お願いします。", "ko": "네, 부탁드립니다.", "romaji": "하이, 오네가이 시마스", "polite": true, "tip": ""}
+      ]
+    },
+    {
+      "id": "s-04",
+      "mode": "SHOP",
+      "situation": "찾는 물건을 말할 때",
+      "order": 4,
+      "utterances": [
+        {"speaker": "A", "ja": "何をお探しですか。", "ko": "무엇을 찾으세요?", "romaji": "나니 오 오사가시 데스 카", "polite": true, "tip": "질문과 대답을 한 세트로 익혀요."},
+        {"speaker": "B", "ja": "ペンを探しています。", "ko": "펜을 찾고 있어요.", "romaji": "펜오 사가시테 이마스", "polite": true, "tip": ""},
+        {"speaker": "A", "ja": "こちらですか。", "ko": "이건가요?", "romaji": "코치라 데스 카", "polite": true, "tip": ""},
+        {"speaker": "B", "ja": "はい、それです。", "ko": "네, 그거예요.", "romaji": "하이, 소레 데스", "polite": true, "tip": ""}
+      ]
+    },
+    {
+      "id": "s-05",
+      "mode": "SHOP",
+      "situation": "가격을 묻고 살 때",
+      "order": 5,
+      "utterances": [
+        {"speaker": "A", "ja": "すみません、いくらですか。", "ko": "실례지만 얼마인가요?", "romaji": "스미마센, 이쿠라 데스 카", "polite": true, "tip": "'스미마센' 뒤에 짧게 쉬어요."},
+        {"speaker": "B", "ja": "三百円です。", "ko": "300엔입니다.", "romaji": "산뱐엔 데스", "polite": true, "tip": ""},
+        {"speaker": "A", "ja": "これをください。", "ko": "이것 주세요.", "romaji": "코레오 쿠다사이", "polite": true, "tip": ""},
+        {"speaker": "B", "ja": "ありがとうございます。", "ko": "감사합니다.", "romaji": "아리가토우 고자이마스", "polite": true, "tip": ""}
+      ]
+    },
+    {
+      "id": "s-06",
+      "mode": "SHOP",
+      "situation": "잠시 기다려 달라고 할 때",
+      "order": 6,
+      "utterances": [
+        {"speaker": "A", "ja": "少々お待ちください。", "ko": "잠시만 기다려 주세요.", "romaji": "쇼우쇼우 오마치 쿠다사이", "polite": true, "tip": "'쇼우쇼우'를 같은 리듬으로 두 번."},
+        {"speaker": "B", "ja": "はい。", "ko": "네.", "romaji": "하이", "polite": true, "tip": ""},
+        {"speaker": "A", "ja": "お待たせしました。", "ko": "기다리게 했습니다.", "romaji": "오마타세시마시타", "polite": true, "tip": ""},
+        {"speaker": "B", "ja": "ありがとうございます。", "ko": "감사합니다.", "romaji": "아리가토우 고자이마스", "polite": true, "tip": ""}
+      ]
+    },
+    {
+      "id": "w-01",
+      "mode": "WORK",
+      "situation": "출근 인사",
+      "order": 1,
+      "utterances": [
+        {"speaker": "A", "ja": "おはようございます。", "ko": "안녕하세요. (출근 인사)", "romaji": "오하요우 고자이마스", "polite": true, "tip": "같은 인사를 주고받는 흐름에 익숙해져요."},
+        {"speaker": "B", "ja": "おはようございます。", "ko": "안녕하세요.", "romaji": "오하요우 고자이마스", "polite": true, "tip": ""},
+        {"speaker": "A", "ja": "今日もよろしくお願いします。", "ko": "오늘도 잘 부탁드립니다.", "romaji": "쿄우모 요로시쿠 오네가이 시마스", "polite": true, "tip": ""},
+        {"speaker": "B", "ja": "こちらこそ、よろしくお願いします。", "ko": "저야 말로 잘 부탁드립니다.", "romaji": "코치라코소, 요로시쿠 오네가이 시마스", "polite": true, "tip": ""}
+      ]
+    },
+    {
+      "id": "w-02",
+      "mode": "WORK",
+      "situation": "퇴근할 때 인사",
+      "order": 2,
+      "utterances": [
+        {"speaker": "A", "ja": "お疲れさまでした。", "ko": "수고하셨습니다.", "romaji": "오츠카레사마 데시타", "polite": true, "tip": "'오츠카레'의 '츠'를 짧고 또렷하게."},
+        {"speaker": "B", "ja": "お疲れさまでした。", "ko": "수고하셨습니다.", "romaji": "오츠카레사마 데시타", "polite": true, "tip": ""},
+        {"speaker": "A", "ja": "明日もよろしくお願いします。", "ko": "내일도 잘 부탁드립니다.", "romaji": "아시타모 요로시쿠 오네가이 시마스", "polite": true, "tip": ""},
+        {"speaker": "B", "ja": "はい、おやすみなさい。", "ko": "네, 안녕히 주무세요.", "romaji": "하이, 오야스미나사이", "polite": true, "tip": ""}
+      ]
+    },
+    {
+      "id": "w-03",
+      "mode": "WORK",
+      "situation": "업무를 부탁할 때",
+      "order": 3,
+      "utterances": [
+        {"speaker": "A", "ja": "これ、お願いします。", "ko": "이거 부탁드립니다.", "romaji": "코레, 오네가이 시마스", "polite": true, "tip": "짧은 부탁과 승낙을 함께 익혀요."},
+        {"speaker": "B", "ja": "はい、承知しました。", "ko": "네, 알겠습니다.", "romaji": "하이, 쇼치 시마시타", "polite": true, "tip": ""},
+        {"speaker": "A", "ja": "ありがとうございます。", "ko": "감사합니다.", "romaji": "아리가토우 고자이마스", "polite": true, "tip": ""},
+        {"speaker": "B", "ja": "いいえ、どういたしまして。", "ko": "아니요, 천만에요.", "romaji": "이리에, 도우 이타시마시테", "polite": true, "tip": ""}
+      ]
+    },
+    {
+      "id": "w-04",
+      "mode": "WORK",
+      "situation": "회의를 시작할 때",
+      "order": 4,
+      "utterances": [
+        {"speaker": "A", "ja": "それでは始めましょう。", "ko": "그럼 시작하죠.", "romaji": "소레데와 하지메마쇼우", "polite": true, "tip": "'소레데와'를 살짝 끊고 이어요."},
+        {"speaker": "B", "ja": "はい。", "ko": "네.", "romaji": "하이", "polite": true, "tip": ""},
+        {"speaker": "A", "ja": "まず、資料を見てください。", "ko": "먼저 자료를 보세요.", "romaji": "마즈, 시료오 미테 쿠다사이", "polite": true, "tip": ""},
+        {"speaker": "B", "ja": "はい、わかりました。", "ko": "네, 알겠습니다.", "romaji": "하이, 와카리마시타", "polite": true, "tip": ""}
+      ]
+    },
+    {
+      "id": "w-05",
+      "mode": "WORK",
+      "situation": "확인을 부탁할 때",
+      "order": 5,
+      "utterances": [
+        {"speaker": "A", "ja": "確認していただけますか。", "ko": "확인 부탁드릴까요?", "romaji": "카쿠닌 시테 이타다케마스 카", "polite": true, "tip": "'이타다케마스'를 천천히 말해요."},
+        {"speaker": "B", "ja": "はい、確認します。", "ko": "네, 확인하겠습니다.", "romaji": "하이, 카쿠닌 시마스", "polite": true, "tip": ""},
+        {"speaker": "A", "ja": "ありがとうございます。", "ko": "감사합니다.", "romaji": "아리가토우 고자이마스", "polite": true, "tip": ""},
+        {"speaker": "B", "ja": "こちらこそ。", "ko": "저야 말로요.", "romaji": "코치라코소", "polite": true, "tip": ""}
+      ]
+    },
+    {
+      "id": "t-01",
+      "mode": "STUDENT",
+      "situation": "수업 중 질문할 때",
+      "order": 1,
+      "utterances": [
+        {"speaker": "A", "ja": "先生、質問があります。", "ko": "선생님, 질문이 있습니다.", "romaji": "센세이, 시츠몬 가 아리마스", "polite": true, "tip": "학생 A, 선생님 B로 따라 해요."},
+        {"speaker": "B", "ja": "はい、どうぞ。", "ko": "네, 말씀하세요.", "romaji": "하이, 도우조", "polite": true, "tip": ""},
+        {"speaker": "A", "ja": "この言葉の意味は？", "ko": "이 단어의 뜻은요?", "romaji": "코노 코토바노 이미와?", "polite": true, "tip": ""},
+        {"speaker": "B", "ja": "こんにちはという意味です。", "ko": "'こんにちは'라는 뜻입니다.", "romaji": "곤니치와 토 이우 이미 데스", "polite": true, "tip": ""}
+      ]
+    },
+    {
+      "id": "t-02",
+      "mode": "STUDENT",
+      "situation": "잘 모르겠다고 말할 때",
+      "order": 2,
+      "utterances": [
+        {"speaker": "A", "ja": "わかりません。", "ko": "모르겠어요.", "romaji": "와카리마센", "polite": true, "tip": "'와카리'를 또렷하게, '마센'으로 낮춰요."},
+        {"speaker": "B", "ja": "どこがわかりませんか。", "ko": "어디가 모르겠나요?", "romaji": "도코가 와카리마센 카", "polite": true, "tip": ""},
+        {"speaker": "A", "ja": "ここです。", "ko": "여기예요.", "romaji": "코코 데스", "polite": true, "tip": ""},
+        {"speaker": "B", "ja": "もう一度説明しますね。", "ko": "한 번 더 설명할게요.", "romaji": "모우 이치도 세츠메이 시마스 네", "polite": true, "tip": ""}
+      ]
+    },
+    {
+      "id": "t-03",
+      "mode": "STUDENT",
+      "situation": "한 번 더 설명해 달라고 할 때",
+      "order": 3,
+      "utterances": [
+        {"speaker": "A", "ja": "もう一度お願いします。", "ko": "한 번 더 부탁드립니다.", "romaji": "모우 이치도 오네가이 시마스", "polite": true, "tip": "'모우'를 살짝 길게 끌어요."},
+        {"speaker": "B", "ja": "はい、聞いてください。", "ko": "네, 들어 주세요.", "romaji": "하이, 킷테 쿠다사이", "polite": true, "tip": ""},
+        {"speaker": "A", "ja": "ゆっくりお願いします。", "ko": "천천히 부탁드립니다.", "romaji": "유쿠리 오네가이 시마스", "polite": true, "tip": ""},
+        {"speaker": "B", "ja": "わかりました。", "ko": "알겠습니다.", "romaji": "와카리마시타", "polite": true, "tip": ""}
+      ]
+    },
+    {
+      "id": "t-04",
+      "mode": "STUDENT",
+      "situation": "수업이 끝날 때",
+      "order": 4,
+      "utterances": [
+        {"speaker": "A", "ja": "今日もありがとうございました。", "ko": "오늘도 감사했습니다.", "romaji": "쿄우모 아리가토우 고자이마시타", "polite": true, "tip": "'쿄우모'를 붙여 말하면 자연스러워요."},
+        {"speaker": "B", "ja": "お疲れさまでした。", "ko": "수고하셨습니다.", "romaji": "오츠카레사마 데시타", "polite": true, "tip": ""},
+        {"speaker": "A", "ja": "また来週。", "ko": "다음 주에 또요.", "romaji": "마타 라이슈우", "polite": true, "tip": ""},
+        {"speaker": "B", "ja": "はい、来週もよろしくお願いします。", "ko": "네, 다음 주도 잘 부탁드립니다.", "romaji": "하이, 라이슈우모 요로시쿠 오네가이 시마스", "polite": true, "tip": ""}
+      ]
+    },
+    {
+      "id": "v-01",
+      "mode": "TRAVELER",
+      "situation": "길에서 역을 물을 때",
+      "order": 1,
+      "utterances": [
+        {"speaker": "A", "ja": "すみません、駅はどこですか。", "ko": "실례지만 역이 어디인가요?", "romaji": "스미마센, 에키와 도코 데스 카", "polite": true, "tip": "물음과 대답을 한 세트로 외워요."},
+        {"speaker": "B", "ja": "まっすぐ行ってください。", "ko": "똑바로 가세요.", "romaji": "맛스구 잇테 쿠다사이", "polite": true, "tip": ""},
+        {"speaker": "A", "ja": "ありがとうございます。", "ko": "감사합니다.", "romaji": "아리가토우 고자이마스", "polite": true, "tip": ""},
+        {"speaker": "B", "ja": "どういたしまして。", "ko": "천만에요.", "romaji": "도우 이타시마시테", "polite": true, "tip": ""}
+      ]
+    },
+    {
+      "id": "v-02",
+      "mode": "TRAVELER",
+      "situation": "식당에서 주문할 때",
+      "order": 2,
+      "utterances": [
+        {"speaker": "A", "ja": "これをください。", "ko": "이것 주세요.", "romaji": "코레오 쿠다사이", "polite": true, "tip": "'코레오'를 붙이고 '쿠다사이'를 또렷하게."},
+        {"speaker": "B", "ja": "はい、少々お待ちください。", "ko": "네, 잠시만 기다려 주세요.", "romaji": "하이, 쇼우쇼우 오마치 쿠다사이", "polite": true, "tip": ""},
+        {"speaker": "A", "ja": "ありがとうございます。", "ko": "감사합니다.", "romaji": "아리가토우 고자이마스", "polite": true, "tip": ""},
+        {"speaker": "B", "ja": "お待たせしました。", "ko": "기다리게 했습니다.", "romaji": "오마타세시마시타", "polite": true, "tip": ""}
+      ]
+    },
+    {
+      "id": "v-03",
+      "mode": "TRAVELER",
+      "situation": "사진을 부탁할 때",
+      "order": 3,
+      "utterances": [
+        {"speaker": "A", "ja": "写真を撮ってもらえますか。", "ko": "사진 찍어 주실 수 있나요?", "romaji": "샤신오 톳테 모라에마스 카", "polite": true, "tip": "'톳테'의 '톳'을 작게 끊어요."},
+        {"speaker": "B", "ja": "はい、いいですよ。", "ko": "네, 좋아요.", "romaji": "하이, 이이 데스 요", "polite": true, "tip": ""},
+        {"speaker": "A", "ja": "ありがとうございます。", "ko": "감사합니다.", "romaji": "아리가토우 고자이마스", "polite": true, "tip": ""},
+        {"speaker": "B", "ja": "どういたしまして。", "ko": "천만에요.", "romaji": "도우 이타시마시테", "polite": true, "tip": ""}
+      ]
+    },
+    {
+      "id": "v-04",
+      "mode": "TRAVELER",
+      "situation": "음식이 맛있을 때",
+      "order": 4,
+      "utterances": [
+        {"speaker": "A", "ja": "おいしいです。", "ko": "맛있어요.", "romaji": "오이시이 데스", "polite": true, "tip": "'오이시이'의 '이이'를 살짝 길게."},
+        {"speaker": "B", "ja": "そうですか。", "ko": "그런가요?", "romaji": "소우 데스 카", "polite": true, "tip": ""},
+        {"speaker": "A", "ja": "とてもおいしいです。", "ko": "아주 맛있어요.", "romaji": "토테모 오이시이 데스", "polite": true, "tip": ""},
+        {"speaker": "B", "ja": "よかったです。", "ko": "다행이에요.", "romaji": "요카탄 데스", "polite": true, "tip": ""}
+      ]
+    },
+    {
+      "id": "f-01",
+      "mode": "FAMILY",
+      "situation": "가족에게 고맙다고 할 때 (반말)",
+      "order": 1,
+      "utterances": [
+        {"speaker": "A", "ja": "ありがとう。", "ko": "고마워.", "romaji": "아리가토우", "polite": false, "tip": "가족끼리 쓰는 짧은 표현이에요."},
+        {"speaker": "B", "ja": "いいえ。", "ko": "아니야.", "romaji": "이리에", "polite": false, "tip": ""},
+        {"speaker": "A", "ja": "助かったよ。", "ko": "도움 됐어.", "romaji": "다스캇타 요", "polite": false, "tip": ""},
+        {"speaker": "B", "ja": "また呼んでね。", "ko": "또 불러줘.", "romaji": "마타 욘데 네", "polite": false, "tip": ""}
+      ]
+    },
+    {
+      "id": "f-02",
+      "mode": "FAMILY",
+      "situation": "집에 돌아왔을 때 (반말)",
+      "order": 2,
+      "utterances": [
+        {"speaker": "A", "ja": "ただいま。", "ko": "다 왔어.", "romaji": "타다이마", "polite": false, "tip": "밝은 톤으로 짧게 말해요."},
+        {"speaker": "B", "ja": "おかえり。", "ko": "어서 와.", "romaji": "오카에리", "polite": false, "tip": ""},
+        {"speaker": "A", "ja": "今日は疲れた。", "ko": "오늘 피곤해.", "romaji": "쿄우와 쓰카레타", "polite": false, "tip": ""},
+        {"speaker": "B", "ja": "ゆっくり休んで。", "ko": "푹 쉬어.", "romaji": "유쿠리 야슨데", "polite": false, "tip": ""}
+      ]
+    },
+    {
+      "id": "f-03",
+      "mode": "FAMILY",
+      "situation": "손주에게 안부를 물을 때 (반말)",
+      "order": 3,
+      "utterances": [
+        {"speaker": "A", "ja": "元気だった？", "ko": "잘 지냈어?", "romaji": "겐키 닷타?", "polite": false, "tip": "끝을 살짝 올려 물어봐요."},
+        {"speaker": "B", "ja": "元気だよ。", "ko": "잘 지냈어.", "romaji": "겐키 다 요", "polite": false, "tip": ""},
+        {"speaker": "A", "ja": "また遊びに来てね。", "ko": "또 놀러 와.", "romaji": "마타 아소비 니 키테 네", "polite": false, "tip": ""},
+        {"speaker": "B", "ja": "うん、またね。", "ko": "응, 또 보자.", "romaji": "운, 마타 네", "polite": false, "tip": ""}
+      ]
+    }
+  ]
+}

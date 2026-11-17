@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 밝은 테마 기본: 50대 학습자 가독성 우선 -->
+    <style name="Theme.HaruNihongo" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:fontFamily">sans</item>
+    </style>
+</resources>
