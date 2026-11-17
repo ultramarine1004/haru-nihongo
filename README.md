@@ -4,6 +4,13 @@
 
 자세한 기획은 [`docs/PLAN.md`](docs/PLAN.md) 참고.
 
+## 다운로드
+
+- **APK (v0.1.0):** [haru-nihongo-v0.1.0.apk](https://github.com/ultramarine1004/haru-nihongo/releases/latest/download/haru-nihongo-v0.1.0.apk)
+- **최신 릴리스 / 변경 내역:** [GitHub Releases](https://github.com/ultramarine1004/haru-nihongo/releases/latest)
+
+서명된 release APK이며 Android 8.0 (minSdk 26) 이상에서 설치할 수 있습니다. 설치할 때 **"알 수 없는 출처의 앱 설치"**를 허용해야 합니다.
+
 ## 확정 사항
 
 - 비즈니스 모델: 무료 / 광고 없음 / 회원가입 없음 / 서버 없음
