@@ -1,10 +1,11 @@
 package com.haru.nihongo.audio
 
+import android.content.Context
 import android.media.MediaPlayer
 
 /**
- * NHK 공식 MP3 URL을 스트리밍하는 재생기.
- * 음성 파일을 앱에 복사하지 않으므로 재생 시 인터넷 연결이 필요하다.
+ * 앱 자산에 번들된 NHK 공식 MP3를 재생하는 플레이어.
+ * 인터넷 연결 없이 재생되며, 강의별 파일을 하나씩 준비해서 재생한다.
  */
 class LessonAudioPlayer {
 
@@ -13,12 +14,21 @@ class LessonAudioPlayer {
     var onPlayingChanged: ((Boolean) -> Unit)? = null
     var onError: ((String) -> Unit)? = null
 
-    fun play(url: String) {
+    fun play(context: Context, assetPath: String) {
         stop()
-        val mediaPlayer = MediaPlayer()
-        player = mediaPlayer
         try {
-            mediaPlayer.setDataSource(url)
+            val descriptor = context.assets.openFd(assetPath)
+            val mediaPlayer = MediaPlayer()
+            player = mediaPlayer
+            try {
+                mediaPlayer.setDataSource(
+                    descriptor.fileDescriptor,
+                    descriptor.startOffset,
+                    descriptor.length,
+                )
+            } finally {
+                descriptor.close()
+            }
             mediaPlayer.setOnPreparedListener {
                 it.start()
                 onPlayingChanged?.invoke(true)
@@ -28,13 +38,13 @@ class LessonAudioPlayer {
             }
             mediaPlayer.setOnErrorListener { _, _, _ ->
                 onPlayingChanged?.invoke(false)
-                onError?.invoke("공식 음성을 재생할 수 없어요. 인터넷 연결을 확인해 주세요.")
+                onError?.invoke("MP3를 재생할 수 없어요. 잠시 후 다시 눌러 주세요.")
                 true
             }
             mediaPlayer.prepareAsync()
         } catch (_: Exception) {
             release()
-            onError?.invoke("공식 음성을 재생할 수 없어요. 인터넷 연결을 확인해 주세요.")
+            onError?.invoke("MP3를 찾을 수 없어요. 앱을 다시 설치해 주세요.")
         }
     }
 

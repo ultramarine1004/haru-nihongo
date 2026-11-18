@@ -1,0 +1,3693 @@
+{
+  "source": "NHK WORLD-JAPAN / 일본말 첫걸음 (개인용, 공식 페이지에서 추출)",
+  "dialogues": [
+    {
+      "id": "lesson-01",
+      "mode": "GENERAL",
+      "situation": "NHK WORLD-JAPAN · 레슨 1 — 레슨1 하루상하우스는 어디예요？",
+      "description": "레슨1: 베트남 유학생 탐은 도쿄에서 입주할 예정인 셰어하우스 \"하루상 하우스\"를 찾고 있습니다.",
+      "title": "레슨1 하루상하우스는 어디예요？",
+      "order": 1,
+      "pageUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/lessons/01.html",
+      "audioUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/mp3/audio_lesson_01.mp3",
+      "audioAsset": "audio/audio_lesson_01.mp3",
+      "utterances": [
+        {
+          "speaker": "A",
+          "ja": "すみません。",
+          "ko": "저기요！",
+          "romaji": "Sumimasen.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "はるさんハウスはどこですか。",
+          "ko": "하루상하우스는 어디예요？",
+          "romaji": "Haru-san-Hausu wa doko desu ka.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "はるさんハウス？",
+          "ko": "하루상하우스？",
+          "romaji": "Haru-san-Hausu?",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "あれ？ぼくたちのうちだよね。",
+          "ko": "어？ 우리가 사는 집이네.",
+          "romaji": "Are? Bokutachi no uchi da yo ne.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "すぐ近くです。",
+          "ko": "바로 근처예요.",
+          "romaji": "Sugu chikaku desu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "一緒に行きましょう。",
+          "ko": "같이 가요.",
+          "romaji": "Issho ni ikimashoo.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "こっちだよ。",
+          "ko": "이쪽이에요.",
+          "romaji": "Kocchi da yo.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "はい。ありがとうございます。",
+          "ko": "네. 고맙습니다.",
+          "romaji": "Hai. Arigatoo gozaimasu.",
+          "polite": true,
+          "tip": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-02",
+      "mode": "GENERAL",
+      "situation": "NHK WORLD-JAPAN · 레슨 2 — 레슨2 탐이에요. 학생이에요.",
+      "description": "레슨2: 입주할 예정인 셰어하우스 \"하루상 하우스\"를 찾고 있던 베트남 유학생 탐은 우연히 그곳의 입주자들과 만나 안내를 받았습니다.",
+      "title": "레슨2 탐이에요. 학생이에요.",
+      "order": 2,
+      "pageUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/lessons/02.html",
+      "audioUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/mp3/audio_lesson_02.mp3",
+      "audioAsset": "audio/audio_lesson_02.mp3",
+      "utterances": [
+        {
+          "speaker": "A",
+          "ja": "ただいま。",
+          "ko": "다녀왔습니다.",
+          "romaji": "Tadaima.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "はるさん、新しい住人が着きましたよ。",
+          "ko": "하루상, 새 입주자가 도착했어요.",
+          "romaji": "Haru-san, atarashii juunin ga tsukimashita yo.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "はーい。",
+          "ko": "네.",
+          "romaji": "Haai.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "ようこそいらっしゃいました。",
+          "ko": "어서 오세요. 잘 오셨어요.",
+          "romaji": "Yookoso irasshaimashita.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "え、ロボット？",
+          "ko": "어！ 로봇？",
+          "romaji": "E, robotto?",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "そう。大家のはるさんです。",
+          "ko": "그래요, 집 주인 하루상이에요.",
+          "romaji": "Soo. Ooya no Haru-san desu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "はじめまして。",
+          "ko": "처음 뵙겠습니다.",
+          "romaji": "Hajimemashite.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "タムです。学生です。",
+          "ko": "탐이에요. 학생이에요.",
+          "romaji": "Tamu desu. Gakusee desu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "よろしくお願いします。",
+          "ko": "잘 부탁합니다.",
+          "romaji": "Yoroshiku onegai-shimasu.",
+          "polite": true,
+          "tip": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-03",
+      "mode": "GENERAL",
+      "situation": "NHK WORLD-JAPAN · 레슨 3 — 레슨3 베트남에서 왔어요.",
+      "description": "레슨3: 베트남 유학생인 탐이 입주할 예정인 게스트하우스에서 탐의 환영회가 열렸습니다. 식탁에는 요리를 좋아하는 입주자 가이토가 만든 진수성찬이 차려져 있습니다.",
+      "title": "레슨3 베트남에서 왔어요.",
+      "order": 3,
+      "pageUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/lessons/03.html",
+      "audioUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/mp3/audio_lesson_03.mp3",
+      "audioAsset": "audio/audio_lesson_03.mp3",
+      "utterances": [
+        {
+          "speaker": "A",
+          "ja": "タムさん、たくさん食べてね。",
+          "ko": "탐 씨, 많이 먹어요.",
+          "romaji": "Tamu-san, takusan tabete ne.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "はい。",
+          "ko": "네.",
+          "romaji": "Hai.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "タムです。ベトナムから来ました。",
+          "ko": "탐이에요. 베트남에서 왔어요.",
+          "romaji": "Tamu desu. Betonamu kara kimashita.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "ミーヤーです。中国からです。",
+          "ko": "미야예요. 중국에서 왔어요.",
+          "romaji": "Miiyaa desu. Chuugoku kara desu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "写真家です。",
+          "ko": "사진작가예요.",
+          "romaji": "Shashinka desu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "ぼくは海斗。学生です。",
+          "ko": "나는 가이토. 학생이에요.",
+          "romaji": "Boku wa Kaito. Gakusee desu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "わたくし、大家のはるです。",
+          "ko": "저, 집 주인 하루예요.",
+          "romaji": "Watakushi, ooya no Haru desu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "はるさんは何でも知っています。",
+          "ko": "하루상은 뭐든지 알아요.",
+          "romaji": "Haru-san wa nan de mo shitte imasu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "そうですか。よろしくお願いします。",
+          "ko": "그렇군요. 잘 부탁합니다.",
+          "romaji": "Soo desu ka. Yoroshiku onegai-shimasu.",
+          "polite": true,
+          "tip": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-04",
+      "mode": "GENERAL",
+      "situation": "NHK WORLD-JAPAN · 레슨 4 — 레슨4 대학교에서 일본어를 공부해요.",
+      "description": "레슨4: 탐은 친해진 중국인 사진작가 미야의 방에서 이야기를 나누고 있습니다. 벽에는 미야가 찍은 일본 각지의 사진이 많이 장식돼 있습니다.",
+      "title": "레슨4 대학교에서 일본어를 공부해요.",
+      "order": 4,
+      "pageUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/lessons/04.html",
+      "audioUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/mp3/audio_lesson_04.mp3",
+      "audioAsset": "audio/audio_lesson_04.mp3",
+      "utterances": [
+        {
+          "speaker": "A",
+          "ja": "これ、どこですか。",
+          "ko": "이거 어디예요？",
+          "romaji": "Kore, doko desu ka.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "沖縄です。",
+          "ko": "오키나와예요.",
+          "romaji": "Okinawa desu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "へえ。",
+          "ko": "우와！",
+          "romaji": "Hee.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "これは京都です。",
+          "ko": "이건 교토예요.",
+          "romaji": "Kore wa Kyooto desu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "京都はとてもきれいですよ。",
+          "ko": "교토는 아주 예뻐요.",
+          "romaji": "Kyooto wa totemo kiree desu yo.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "そうですね。",
+          "ko": "그렇네요.",
+          "romaji": "Soo desu ne.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "タムさんは日本で何をしますか。",
+          "ko": "탐 씨는 일본에서 무엇을 해요？",
+          "romaji": "Tamu-san wa Nihon de nani o shimasu ka.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "大学で日本語を勉強します。",
+          "ko": "대학교에서 일본어를 공부해요.",
+          "romaji": "Daigaku de Nihongo o benkyoo-shimasu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "いいですね。",
+          "ko": "좋겠네요.",
+          "romaji": "Ii desu ne.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "はい、楽しみです。",
+          "ko": "네, 기대돼요.",
+          "romaji": "Hai, tanoshimi desu.",
+          "polite": true,
+          "tip": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-05",
+      "mode": "GENERAL",
+      "situation": "NHK WORLD-JAPAN · 레슨 5 — 레슨5 라디오로 공부했어요.",
+      "description": "레슨5: 대학교 첫날, 긴장한 베트남 유학생 탐에게 집 주인인 로봇 하루상이 말을 겁니다.",
+      "title": "레슨5 라디오로 공부했어요.",
+      "order": 5,
+      "pageUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/lessons/05.html",
+      "audioUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/mp3/audio_lesson_05.mp3",
+      "audioAsset": "audio/audio_lesson_05.mp3",
+      "utterances": [
+        {
+          "speaker": "A",
+          "ja": "タムさん、今日から学校ですね。",
+          "ko": "탐 씨, 오늘부터 학교네요.",
+          "romaji": "Tamu-san, kyoo kara gakkoo desu ne.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "はい。",
+          "ko": "네.",
+          "romaji": "Hai.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "あらまあ！",
+          "ko": "어머나！",
+          "romaji": "Ara maa!",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "どうしたんですか。",
+          "ko": "왜 그래요？",
+          "romaji": "Doo shitan desu ka.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "日本語が心配です。",
+          "ko": "일본어가 걱정이에요.",
+          "romaji": "Nihongo ga shinpai desu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "タムさんは日本語、お上手ですよ。",
+          "ko": "탐 씨는 일본어 잘하는데요.",
+          "romaji": "Tamu-san wa Nihongo, ojoozu desu yo.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "いいえ、まだまだです。",
+          "ko": "아니요, 아직 멀었어요.",
+          "romaji": "Iie, mada mada desu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "ベトナムで勉強したんでしょう？",
+          "ko": "베트남에서 공부했지요？",
+          "romaji": "Betonamu de benkyoo-shitan deshoo?",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "はい、ラジオで勉強しました。",
+          "ko": "네, 라디오로 공부했어요.",
+          "romaji": "Hai, rajio de benkyoo-shimashita.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "それなら、大丈夫ですよ。",
+          "ko": "그렇다면 괜찮아요.",
+          "romaji": "Sore nara, daijoobu desu yo.",
+          "polite": true,
+          "tip": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-06",
+      "mode": "GENERAL",
+      "situation": "NHK WORLD-JAPAN · 레슨 6 — 레슨6 이 전철은 이케부쿠로에 가요？",
+      "description": "레슨6: 오늘은 탐이 처음으로 대학교에 가는 날입니다. 역에 도착하기는 했는데 타려고 하는 전철이 맞는지 알 수가 없습니다.",
+      "title": "레슨6 이 전철은 이케부쿠로에 가요？",
+      "order": 6,
+      "pageUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/lessons/06.html",
+      "audioUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/mp3/audio_lesson_06.mp3",
+      "audioAsset": "audio/audio_lesson_06.mp3",
+      "utterances": [
+        {
+          "speaker": "A",
+          "ja": "すみません。",
+          "ko": "저기요！",
+          "romaji": "Sumimasen.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "はい。",
+          "ko": "네.",
+          "romaji": "Hai.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "この電車は池袋に行きますか。",
+          "ko": "이 전철은 이케부쿠로에 가요？",
+          "romaji": "Kono densha wa Ikebukuro ni ikimasu ka.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "いいえ、行きません。",
+          "ko": "아니요, 안 갑니다.",
+          "romaji": "Iie, ikimasen.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "池袋は山手線です。",
+          "ko": "이케부쿠로는 야마노테선입니다.",
+          "romaji": "Ikebukuro wa Yamanote-sen desu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "山手線はどこですか。",
+          "ko": "야마노테선은 어디예요？",
+          "romaji": "Yamanote-sen wa doko desu ka.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "3番線です。",
+          "ko": "3번선입니다.",
+          "romaji": "San-ban-sen desu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "わかりました。",
+          "ko": "알겠습니다.",
+          "romaji": "Wakarimashita.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "ありがとうございます。",
+          "ko": "고맙습니다.",
+          "romaji": "Arigatoo gozaimasu.",
+          "polite": true,
+          "tip": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-07",
+      "mode": "GENERAL",
+      "situation": "NHK WORLD-JAPAN · 레슨 7 — 레슨7 천천히 말해 주세요.",
+      "description": "레슨7: 대학교 식당에서 점심을 먹고 있는 탐에게 일본인 여학생이 말을 걸었습니다.",
+      "title": "레슨7 천천히 말해 주세요.",
+      "order": 7,
+      "pageUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/lessons/07.html",
+      "audioUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/mp3/audio_lesson_07.mp3",
+      "audioAsset": "audio/audio_lesson_07.mp3",
+      "utterances": [
+        {
+          "speaker": "A",
+          "ja": "隣、いい？",
+          "ko": "옆에 괜찮아？",
+          "romaji": "Tonari, ii?",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "え？　はい。",
+          "ko": "아？ 네.",
+          "romaji": "E? Hai.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "ありがとう。留学生なの？",
+          "ko": "고마워. 유학생이야？",
+          "romaji": "Arigatoo. Ryuugakusee na no?",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "すみません。よくわかりません。",
+          "ko": "미안합니다. 잘 모르겠어요.",
+          "romaji": "Sumimasen. Yoku wakarimasen.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "ゆっくり話してください。",
+          "ko": "천천히 말해 주세요.",
+          "romaji": "Yukkuri hanashite kudasai.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "あ、ごめん、ごめん。",
+          "ko": "아, 미안, 미안.",
+          "romaji": "A, gomen, gomen.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "あなたはりゅうがくせいですか。",
+          "ko": "당신은 유학생이에요？",
+          "romaji": "Anata wa ryuugakusee desu ka.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "わたしはあやかです。",
+          "ko": "나는 아야카예요.",
+          "romaji": "Watashi wa A-YA-KA desu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "よろしくね。",
+          "ko": "잘 부탁해요.",
+          "romaji": "Yoroshiku ne.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "はい。私はタムです。",
+          "ko": "네. 저는 탐이에요.",
+          "romaji": "Hai. Watashi wa Tamu desu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "よろしくお願いします。",
+          "ko": "잘 부탁합니다.",
+          "romaji": "Yoroshiku onegai-shimasu.",
+          "polite": true,
+          "tip": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-08",
+      "mode": "GENERAL",
+      "situation": "NHK WORLD-JAPAN · 레슨 8 — 레슨8 친구인 아야카 씨예요.",
+      "description": "레슨8: 탐은 친구가 된 아야카와 함께 도쿄도청의 전망실에 왔습니다. 두 사람은 여기에서 \"하루상하우스\"의 입주자인 미야와 만나기로 돼 있습니다.",
+      "title": "레슨8 친구인 아야카 씨예요.",
+      "order": 8,
+      "pageUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/lessons/08.html",
+      "audioUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/mp3/audio_lesson_08.mp3",
+      "audioAsset": "audio/audio_lesson_08.mp3",
+      "utterances": [
+        {
+          "speaker": "A",
+          "ja": "わあ、すごい！きれいだね。",
+          "ko": "와, 멋지다！ 예쁘네.",
+          "romaji": "Waa, sugoi! Kiree da ne.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "はい。",
+          "ko": "네.",
+          "romaji": "Hai.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "ああ、タム、遅れてごめんなさい。",
+          "ko": "아아, 탐, 늦어서 미안해요.",
+          "romaji": "Aa, Tamu, okurete gomen nasai.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "友達のあやかさんです。",
+          "ko": "친구인 아야카 씨예요.",
+          "romaji": "Tomodachi no Ayaka-san desu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "こんにちは。ミーヤーです。",
+          "ko": "안녕하세요？ 미야예요.",
+          "romaji": "Konnichiwa. Miiyaa desu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "ああ、ミーヤーさん！",
+          "ko": "아아, 미야 씨！",
+          "romaji": "Aa, Miiyaa-san!",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "写真を撮ってるんでしょう？",
+          "ko": "사진을 찍는다고요？",
+          "romaji": "Shashin o totterun deshoo?",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "すごいなあ。私も撮ってくださいね。",
+          "ko": "멋지다. 저도 찍어 주세요.",
+          "romaji": "Sugoi naa. Watashi mo totte kudasai ne.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "あ、はい・・・。",
+          "ko": "아, 네・・・.",
+          "romaji": "A, hai...",
+          "polite": false,
+          "tip": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-09",
+      "mode": "GENERAL",
+      "situation": "NHK WORLD-JAPAN · 레슨 9 — 레슨9 이것은 뭐예요？",
+      "description": "레슨9: 베트남인 탐은 셰어하우스에 사는 가이토와 그 친구 미국인 마이크를 따라 백화점 지하 식품매장에 왔습니다. 보통 \"데파치카 \" 라고 부릅니다.",
+      "title": "레슨9 이것은 뭐예요？",
+      "order": 9,
+      "pageUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/lessons/09.html",
+      "audioUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/mp3/audio_lesson_09.mp3",
+      "audioAsset": "audio/audio_lesson_09.mp3",
+      "utterances": [
+        {
+          "speaker": "A",
+          "ja": "ここが「デパ地下」だよ。",
+          "ko": "여기가 백화점 지하 식품매장이야.",
+          "romaji": "Koko ga depa-chika da yo.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "いろんな食べ物があって、いいよね。",
+          "ko": "여러 가지 음식이 있어서 좋네.",
+          "romaji": "Ironna tabemono ga atte, ii yo ne.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "わあ、すごい。",
+          "ko": "와！ 대단하다.",
+          "romaji": "Waa, sugoi.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "これは何ですか。",
+          "ko": "이것은 뭐예요？",
+          "romaji": "Kore wa nan desu ka.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "大根の漬物だよ。",
+          "ko": "무장아찌야.",
+          "romaji": "Daikon no tsukemono da yo.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "食べてみる？",
+          "ko": "먹어 볼래？",
+          "romaji": "Tabete miru?",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "いただきます。",
+          "ko": "잘 먹겠습니다.",
+          "romaji": "Itadakimasu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "おいしいです。",
+          "ko": "맛있어요.",
+          "romaji": "Oishii desu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "これも食べてみる？",
+          "ko": "이것도 먹어 볼래？",
+          "romaji": "Kore mo tabete miru?",
+          "polite": false,
+          "tip": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-10",
+      "mode": "GENERAL",
+      "situation": "NHK WORLD-JAPAN · 레슨 10 — 레슨10 이 헤어드라이어는 얼마예요？",
+      "description": "레슨10: 탐은 친구인 아야카와 함께 가전 제품점에 왔습니다. 목적은 헤어드라이어를 보기 위해서입니다.",
+      "title": "레슨10 이 헤어드라이어는 얼마예요？",
+      "order": 10,
+      "pageUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/lessons/10.html",
+      "audioUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/mp3/audio_lesson_10.mp3",
+      "audioAsset": "audio/audio_lesson_10.mp3",
+      "utterances": [
+        {
+          "speaker": "A",
+          "ja": "たくさんありますね！",
+          "ko": "많이 있네요！",
+          "romaji": "Takusan arimasu ne!",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "すごいでしょう？",
+          "ko": "대단하지？",
+          "romaji": "Sugoi deshoo?",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "これはサラサラヘア。",
+          "ko": "이건 머릿결을 찰랑찰랑하게 해.",
+          "romaji": "Kore wa sarasara hea.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "これはツヤが出るタイプ。",
+          "ko": "이건 윤기가 나는 타입.",
+          "romaji": "Kore wa tsuya ga deru taipu.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "へえ、いくらですか。",
+          "ko": "오, 얼마예요？",
+          "romaji": "Hee, ikura desu ka.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "セールって書いてある。きいてみよう。",
+          "ko": "세일이라고 쓰여 있네. 물어 보자.",
+          "romaji": "Seeru tte kaite aru. Kiite miyoo.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "すみません。",
+          "ko": "저기요！",
+          "romaji": "Sumimasen.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "このドライヤーはいくらですか。",
+          "ko": "이 헤어드라이어는 얼마예요？",
+          "romaji": "Kono doraiyaa wa ikura desu ka.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "9,900円です。",
+          "ko": "9,900엔이에요.",
+          "romaji": "Kyuu-sen-kyuu-hyaku-en desu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "え！高すぎます。",
+          "ko": "어！ 너무 비싸요.",
+          "romaji": "E! Takasugimasu.",
+          "polite": true,
+          "tip": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-11",
+      "mode": "GENERAL",
+      "situation": "NHK WORLD-JAPAN · 레슨 11 — 레슨11 부적은 있어요？",
+      "description": "레슨11: 탐은 중국인 사진작가 미야와 도쿄의 아사쿠사에 왔습니다. 두 사람은 \"나카미세 도리\"에 있는 기념품 가게를 둘러보고 있습니다.",
+      "title": "레슨11 부적은 있어요？",
+      "order": 11,
+      "pageUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/lessons/11.html",
+      "audioUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/mp3/audio_lesson_11.mp3",
+      "audioAsset": "audio/audio_lesson_11.mp3",
+      "utterances": [
+        {
+          "speaker": "A",
+          "ja": "このTシャツ、見て。",
+          "ko": "이 티셔츠  봐.",
+          "romaji": "Kono tii-shatsu, mite.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "「忍者」って書いてある。",
+          "ko": "\"닌자\"라고 쓰여 있어.",
+          "romaji": "\"Ninja\" tte kaite aru.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "わあ、にんじゃ！",
+          "ko": "우와, 닌자！",
+          "romaji": "Waa, ninja!",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "いらっしゃいませ。",
+          "ko": "어서 오세요.",
+          "romaji": "Irasshaimase.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "すみません。",
+          "ko": "저기요！",
+          "romaji": "Sumimasen.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "お守りはありますか。",
+          "ko": "부적은 있어요？",
+          "romaji": "Omamori wa arimasu ka.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "ちょっと・・・。ここにはありませんねえ。",
+          "ko": "저・・・. 여기에는 없는데요.",
+          "romaji": "Chotto... Koko ni wa arimasen nee.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "タム、お守りはお寺にあるよ。",
+          "ko": "탐, 부적은 절에 있어.",
+          "romaji": "Tamu, omamori wa otera ni aru yo.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "お寺ですか。",
+          "ko": "절이요？",
+          "romaji": "Otera desu ka.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "行きましょう。",
+          "ko": "가요.",
+          "romaji": "Ikimashoo.",
+          "polite": true,
+          "tip": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-12",
+      "mode": "GENERAL",
+      "situation": "NHK WORLD-JAPAN · 레슨 12 — 레슨12 귀여운 부적이네요",
+      "description": "레슨12: 탐은 중국인 사진작가 미야와 함께 도쿄 아사쿠사의 센소지 절에  와 있습니다.  두 사람은 절 안의 부적 파는 곳에 왔습니다.",
+      "title": "레슨12 귀여운 부적이네요",
+      "order": 12,
+      "pageUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/lessons/12.html",
+      "audioUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/mp3/audio_lesson_12.mp3",
+      "audioAsset": "audio/audio_lesson_12.mp3",
+      "utterances": [
+        {
+          "speaker": "A",
+          "ja": "これ、かわいいお守りですね。",
+          "ko": "이거, 귀여운 부적이네요.",
+          "romaji": "Kore, kawaii omamori desu ne.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "本当、かわいい。",
+          "ko": "정말, 귀엽다.",
+          "romaji": "Hontoo, kawaii.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "これもいいですね。",
+          "ko": "이것도 좋네요.",
+          "romaji": "Kore mo ii desu ne.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "それは縁結びのお守りです。",
+          "ko": "그건 \"엔무스비\" 부적이에요.",
+          "romaji": "Sore wa enmusubi no omamori desu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "800円になります。",
+          "ko": "800엔 되겠습니다.",
+          "romaji": "Happyaku-en ni narimasu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "えんむす・・・。",
+          "ko": "엔무스・・・.",
+          "romaji": "Enmusu…",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "縁結び。恋人ができるお守り。",
+          "ko": "엔무스비. 애인이 생기는 부적.",
+          "romaji": "Enmusubi. Koibito ga dekiru omamori.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "じゃあ、これをください。",
+          "ko": "그럼, 이것을 주세요.",
+          "romaji": "Jaa, kore o kudasai.",
+          "polite": true,
+          "tip": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-13",
+      "mode": "GENERAL",
+      "situation": "NHK WORLD-JAPAN · 레슨 13 — 레슨13 눈을 보고 싶어요.",
+      "description": "레슨13: 탐은 묵고 있는 \"하루상하우스\"의 거실에서 집주인인 로봇 하루상과 중국인 사진작가 미야와 이야기하고 있습니다.",
+      "title": "레슨13 눈을 보고 싶어요.",
+      "order": 13,
+      "pageUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/lessons/13.html",
+      "audioUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/mp3/audio_lesson_13.mp3",
+      "audioAsset": "audio/audio_lesson_13.mp3",
+      "utterances": [
+        {
+          "speaker": "A",
+          "ja": "日本には慣れましたか。",
+          "ko": "일본에는 익숙해졌어요？",
+          "romaji": "Nihon ni wa naremashita ka.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "はい。",
+          "ko": "네.",
+          "romaji": "Hai.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "日本でどんなことがしたいですか。",
+          "ko": "일본에서 어떤 것을 하고 싶어요？",
+          "romaji": "Nihon de donna koto ga shitai desu ka.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "ええと、雪が見たいです。",
+          "ko": "글쎄요, 눈을 보고 싶어요.",
+          "romaji": "Eeto, yuki ga mitai desu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "北海道に行きたいです。",
+          "ko": "홋카이도에 가고 싶어요.",
+          "romaji": "Hokkaidoo ni ikitai desu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "北海道！いいね。",
+          "ko": "홋카이도！ 좋지.",
+          "romaji": "Hokkaidoo! Ii ne.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "あと・・・友達に会いたいです。",
+          "ko": "그리고・・・ 친구를 만나고 싶어요.",
+          "romaji": "Ato...tomodachi ni aitai desu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "おや？",
+          "ko": "어머나！",
+          "romaji": "Oya?",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "大丈夫？顔が赤いよ。",
+          "ko": "괜찮아？ 얼굴이 빨개.",
+          "romaji": "Daijoobu? Kao ga akai yo.",
+          "polite": false,
+          "tip": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-14",
+      "mode": "GENERAL",
+      "situation": "NHK WORLD-JAPAN · 레슨 14 — 레슨14 일본에 가 보고 싶어요",
+      "description": "레슨14: 탐은 일본에 오기 전에 베트남의 학교에서 자원봉사를 했습니다. 어느 날 일본에서 유키가 와서 아이들에게 피아노 연주를 들려 주었습니다.",
+      "title": "레슨14 일본에 가 보고 싶어요",
+      "order": 14,
+      "pageUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/lessons/14.html",
+      "audioUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/mp3/audio_lesson_14.mp3",
+      "audioAsset": "audio/audio_lesson_14.mp3",
+      "utterances": [
+        {
+          "speaker": "A",
+          "ja": "こんにちは。私はタムです。",
+          "ko": "안녕하세요？ 저는 탐이에요.",
+          "romaji": "Konnichiwa. Watashi wa Tamu desu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "あ、ぼく、悠輝です。",
+          "ko": "아, 나 유키예요.",
+          "romaji": "A, boku, Yuuki desu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "タムさん、日本語ができるんですね！",
+          "ko": "탐 씨, 일본어를 할 수 있네요！",
+          "romaji": "Tamu-san, Nihongo ga dekirun desu ne!",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "少しだけです。",
+          "ko": "조금만요.",
+          "romaji": "Sukoshi dake desu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "ラジオで勉強しました。",
+          "ko": "라디오로 공부했어요.",
+          "romaji": "Rajio de benkyoo-shimashita.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "へえ。すごいですね。",
+          "ko": "와, 대단하네요.",
+          "romaji": "Hee. Sugoi desu ne.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "日本へ行ってみたいです。",
+          "ko": "일본에 가 보고 싶어요.",
+          "romaji": "Nihon e itte mitai desu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "ぜひ来てください。",
+          "ko": "꼭 오세요.",
+          "romaji": "Zehi kite kudasai.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "ぼくが案内しますよ。",
+          "ko": "내가 안내할게요.",
+          "romaji": "Boku ga annai-shimasu yo.",
+          "polite": true,
+          "tip": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-15",
+      "mode": "GENERAL",
+      "situation": "NHK WORLD-JAPAN · 레슨 15 — 레슨15 원숭이 온천까지 부탁합니다",
+      "description": "레슨15: 중국인 사진작가 미야는 온천을 취재하기 위해 나가노 현에 왔습니다. 택시로 지고쿠다니야엔고엔이라는 곳에 가려고 합니다.",
+      "title": "레슨15 원숭이 온천까지 부탁합니다",
+      "order": 15,
+      "pageUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/lessons/15.html",
+      "audioUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/mp3/audio_lesson_15.mp3",
+      "audioAsset": "audio/audio_lesson_15.mp3",
+      "utterances": [
+        {
+          "speaker": "A",
+          "ja": "どちらまで？",
+          "ko": "어디까지요？",
+          "romaji": "Dochira made?",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "猿の温泉までお願いします。",
+          "ko": "원숭이 온천까지 부탁합니다.",
+          "romaji": "Saru no onsen made onegai-shimasu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "はい、わかりました。",
+          "ko": "네, 알겠습니다.",
+          "romaji": "Hai, wakarimashita.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "こちらは初めてですか。",
+          "ko": "여기는 처음이에요？",
+          "romaji": "Kochira wa hajimete desu ka.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "はい、初めてです。",
+          "ko": "네, 처음이에요.",
+          "romaji": "Hai, hajimete desu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "猿の写真を撮りに行きます。",
+          "ko": "원숭이 사진을 찍으러 가요.",
+          "romaji": "Saru no shashin o tori ni ikimasu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "そうですか。",
+          "ko": "그래요？",
+          "romaji": "Soo desu ka.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "今日は寒いから、猿がたくさん温泉に入ってますよ。",
+          "ko": "오늘은 추우니까 원숭이가 많이 온천에 들어가 있을 거예요.",
+          "romaji": "Kyoo wa samui kara, saru ga takusan onsen ni haitte masu yo.",
+          "polite": true,
+          "tip": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-16",
+      "mode": "GENERAL",
+      "situation": "NHK WORLD-JAPAN · 레슨 16 — 레슨16 유명한 온천이에요.",
+      "description": "레슨16: 미야는 나가노 현에 있는 원숭이가 목욕하는 것으로 유명한 온천에 와  있습니다. 일본인 부부가 말을 걸어 왔습니다.",
+      "title": "레슨16 유명한 온천이에요.",
+      "order": 16,
+      "pageUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/lessons/16.html",
+      "audioUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/mp3/audio_lesson_16.mp3",
+      "audioAsset": "audio/audio_lesson_16.mp3",
+      "utterances": [
+        {
+          "speaker": "A",
+          "ja": "わあ、猿がいっぱい！",
+          "ko": "우와, 원숭이가 많다！",
+          "romaji": "Waa, saru ga ippai!",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "たくさん写真を撮っているのね。",
+          "ko": "사진을 많이 찍네요.",
+          "romaji": "Takusan shashin o totte iru no ne.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "はい。ここは海外でも 有名な温泉です。",
+          "ko": "네. 여기는 해외에서도 유명한 온천이에요.",
+          "romaji": "Hai. Koko wa kaigai de mo yuumeena onsen desu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "へえ、そうなんだ。",
+          "ko": "아, 그렇구나.",
+          "romaji": "Hee, soo nan da.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "猿が温泉に入るのは 珍しいからね。",
+          "ko": "원숭이가 온천에 들어가는 건 드무니까.",
+          "romaji": "Saru ga onsen ni hairu no wa mezurashii kara ne.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "あ、猿の赤ちゃん。かわいい。",
+          "ko": "아, 아기 원숭이. 귀엽다.",
+          "romaji": "A, saru no akachan. Kawaii.",
+          "polite": false,
+          "tip": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-17",
+      "mode": "GENERAL",
+      "situation": "NHK WORLD-JAPAN · 레슨 17 — 레슨17 일본을 여행하고 있어요.",
+      "description": "레슨17: 미야는 취재를 하기 위해 나가노에 갔습니다. 그곳에서 일본인 부부와 알게 돼 함께 메밀국수 가게에 왔습니다.",
+      "title": "레슨17 일본을 여행하고 있어요.",
+      "order": 17,
+      "pageUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/lessons/17.html",
+      "audioUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/mp3/audio_lesson_17.mp3",
+      "audioAsset": "audio/audio_lesson_17.mp3",
+      "utterances": [
+        {
+          "speaker": "A",
+          "ja": "おそば３つ、お願いします。",
+          "ko": "메밀국수 셋 부탁합니다.",
+          "romaji": "Osoba mittsu, onegai-shimasu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "はーい。",
+          "ko": "네.",
+          "romaji": "Haai.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "日本へは、観光ですか。",
+          "ko": "일본에는 관광으로 왔어요？",
+          "romaji": "Nihon e wa, kankoo desu ka.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "ええと、私は写真家で、日本のことを海外に紹介しています。",
+          "ko": "음･･･ 저는 사진작가인데 일본에 대한 것을 해외에 소개하고 있어요.",
+          "romaji": "Eeto, watashi wa shashinka de, Nihon no koto o kaigai ni shookai-shite imasu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "それで、日本を旅行しています。",
+          "ko": "그래서 일본을 여행하고 있어요.",
+          "romaji": "Sore de, Nihon o ryokoo-shite imasu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "それはすばらしいね。",
+          "ko": "그거 멋지네.",
+          "romaji": "Sore wa subarashii ne.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "お待たせしました。",
+          "ko": "오래 기다리셨습니다.",
+          "romaji": "Omatase-shimashita.",
+          "polite": false,
+          "tip": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-18",
+      "mode": "GENERAL",
+      "situation": "NHK WORLD-JAPAN · 레슨 18 — 레슨18 아주 즐거웠어요.",
+      "description": "레슨18: 미야가 \"하루상하우스\" 거실에서 집주인 로봇 하루상과 탐에게 나가노 여행 이야기를 합니다.",
+      "title": "레슨18 아주 즐거웠어요.",
+      "order": 18,
+      "pageUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/lessons/18.html",
+      "audioUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/mp3/audio_lesson_18.mp3",
+      "audioAsset": "audio/audio_lesson_18.mp3",
+      "utterances": [
+        {
+          "speaker": "A",
+          "ja": "おかえりなさい。",
+          "ko": "다녀왔어요？",
+          "romaji": "Okaerinasai.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "長野はどうでしたか。",
+          "ko": "나가노는 어땠어요？",
+          "romaji": "Nagano wa doo deshita ka.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "すごく楽しかったです。",
+          "ko": "아주 즐거웠어요.",
+          "romaji": "Sugoku tanoshikatta desu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "写真をたくさん撮りました。",
+          "ko": "사진을 많이 찍었어요.",
+          "romaji": "Shashin o takusan torimashita.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "それから、おそばも食べました。",
+          "ko": "그리고 메밀국수도 먹었어요.",
+          "romaji": "Sorekara, osoba mo tabemashita.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "とてもおいしかったです。",
+          "ko": "매우 맛있었어요.",
+          "romaji": "Totemo oishikatta desu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "そうですか。よかったですね。",
+          "ko": "그래요？ 다행이네요.",
+          "romaji": "Soo desu ka. Yokatta desu ne.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "長野の人はとても親切でした。",
+          "ko": "나가노 사람은 매우 친절했어요.",
+          "romaji": "Nagano no hito wa totemo shinsetsu deshita.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "楽しい旅行でしたね。",
+          "ko": "즐거운 여행이었군요.",
+          "romaji": "Tanoshii ryokoo deshita ne.",
+          "polite": true,
+          "tip": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-19",
+      "mode": "GENERAL",
+      "situation": "NHK WORLD-JAPAN · 레슨 19 — 레슨19 장갑을 사고 싶은데요.",
+      "description": "레슨19: 미야, 가이토와 함께 홋카이도로 여행을 가기로 한 탐. 여행 준비를 위해 장갑을 사러 왔습니다.",
+      "title": "레슨19 장갑을 사고 싶은데요.",
+      "order": 19,
+      "pageUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/lessons/19.html",
+      "audioUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/mp3/audio_lesson_19.mp3",
+      "audioAsset": "audio/audio_lesson_19.mp3",
+      "utterances": [
+        {
+          "speaker": "A",
+          "ja": "あのう、すみません。",
+          "ko": "저, 저기요.",
+          "romaji": "Anoo, sumimasen.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "手袋が欲しいんですが。",
+          "ko": "장갑을 사고 싶은데요.",
+          "romaji": "Tebukuro ga hoshiin desu ga.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "手袋はこちらです。",
+          "ko": "장갑은 이쪽이에요.",
+          "romaji": "Tebukuro wa kochira desu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "これ、あったかそう。",
+          "ko": "이거, 따뜻하겠다.",
+          "romaji": "Kore, attakasoo.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "いいですね。",
+          "ko": "좋네요.",
+          "romaji": "Ii desu ne.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "これ、いくらですか。",
+          "ko": "이거, 얼마예요？",
+          "romaji": "Kore, ikura desu ka.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "1,900円です。",
+          "ko": "1,900엔이에요.",
+          "romaji": "Sen-kyuuhyaku-en desu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "カードは使えますか。",
+          "ko": "카드는 쓸 수 있어요？",
+          "romaji": "Kaado wa tsukaemasu ka.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "はい、使えます。",
+          "ko": "네, 쓸 수 있어요.",
+          "romaji": "Hai, tsukaemasu.",
+          "polite": true,
+          "tip": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-20",
+      "mode": "GENERAL",
+      "situation": "NHK WORLD-JAPAN · 레슨 20 — 레슨20 고추냉이는 넣지 마세요.",
+      "description": "레슨20: 탐은 미야와 함께 홋카이도의 삿포로에 왔습니다. 신선한 해산물을 먹기 위해 식당에 들어갔습니다.",
+      "title": "레슨20 고추냉이는 넣지 마세요.",
+      "order": 20,
+      "pageUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/lessons/20.html",
+      "audioUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/mp3/audio_lesson_20.mp3",
+      "audioAsset": "audio/audio_lesson_20.mp3",
+      "utterances": [
+        {
+          "speaker": "A",
+          "ja": "おすすめは何ですか。",
+          "ko": "추천할 만한 것이 뭐가 있어요？",
+          "romaji": "Osusume wa nan desu ka.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "このスペシャル海鮮丼がおすすめだよ！",
+          "ko": "이 특선 회덮밥을 추천해요.",
+          "romaji": "Kono supesharu-kaisen-don ga  osusume da yo!",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "イクラとウニがたっぷり入ってるよ。",
+          "ko": "연어알하고 성게가 듬뿍 들어 있어요.",
+          "romaji": "Ikura to uni ga tappuri haitteru yo.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "じゃあ、それください。",
+          "ko": "그럼, 그거 주세요.",
+          "romaji": "Jaa, sore kudasai.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "私も。あ、わさびは入れないでください。",
+          "ko": "저도요. 아, 고추냉이는 넣지 마세요.",
+          "romaji": "Watashi mo.  A, wasabi wa irenaide kudasai.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "わさび抜きね。そちらは？",
+          "ko": "고추냉이 빼고. 그쪽 손님은요？",
+          "romaji": "Wasabi nuki ne. Sochira wa?",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "私はわさびをたくさん入れてください。",
+          "ko": "저는 고추냉이를 많이 넣어 주세요.",
+          "romaji": "Watashi wa wasabi o takusan irete kudasai.",
+          "polite": true,
+          "tip": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-21",
+      "mode": "GENERAL",
+      "situation": "NHK WORLD-JAPAN · 레슨 21 — 레슨21 시계탑 안에 있어요.",
+      "description": "레슨21: 홋카이도를 여행하고 있는 탐과 미야는 삿포로의 시계탑에서 가이토와 만나기로 했습니다.",
+      "title": "레슨21 시계탑 안에 있어요.",
+      "order": 21,
+      "pageUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/lessons/21.html",
+      "audioUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/mp3/audio_lesson_21.mp3",
+      "audioAsset": "audio/audio_lesson_21.mp3",
+      "utterances": [
+        {
+          "speaker": "A",
+          "ja": "もしもし、タムさん。",
+          "ko": "여보세요, 탐 씨.",
+          "romaji": "Moshimoshi, Tamu-san.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "今、どこにいるの？",
+          "ko": "지금 어디 있어？",
+          "romaji": "Ima, doko ni iru no?",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "時計台の中にいます。",
+          "ko": "시계탑 안에 있어요.",
+          "romaji": "Tokeedai no naka ni imasu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "え、中？",
+          "ko": "어, 안에？",
+          "romaji": "E, naka?",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "じゃあ、ぼくもすぐそっちに行くね。",
+          "ko": "그럼 나도 금방 그곳으로 갈게.",
+          "romaji": "Jaa, boku mo sugu socchi ni iku ne.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "わかりました。",
+          "ko": "알았어요.",
+          "romaji": "Wakarimashita.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "あ、海斗！こっち、こっち!",
+          "ko": "아, 가이토！ 여기 여기！",
+          "romaji": "A, Kaito! Kocchi, kocchi!",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "ごめん、遅くなって。",
+          "ko": "미안, 늦어서.",
+          "romaji": "Gomen, osoku natte.",
+          "polite": false,
+          "tip": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-22",
+      "mode": "GENERAL",
+      "situation": "NHK WORLD-JAPAN · 레슨 22 — 레슨22 사진을 찍읍시다.",
+      "description": "레슨22: 탐과 미야, 가이토 세 사람은 삿포로 눈 축제를 보러 왔습니다. 눈으로 만든 큰 조각 앞에 서 있습니다.",
+      "title": "레슨22 사진을 찍읍시다.",
+      "order": 22,
+      "pageUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/lessons/22.html",
+      "audioUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/mp3/audio_lesson_22.mp3",
+      "audioAsset": "audio/audio_lesson_22.mp3",
+      "utterances": [
+        {
+          "speaker": "A",
+          "ja": "すごい！",
+          "ko": "대단하다！",
+          "romaji": "Sugoi!",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "タム、見て見て！",
+          "ko": "탐, 봐봐！",
+          "romaji": "Tamu, mite mite!",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "わあ、大きいですね。",
+          "ko": "와, 크네요.",
+          "romaji": "Waa, ookii desu ne.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "初めて見ました。",
+          "ko": "처음 봤어요.",
+          "romaji": "Hajimete mimashita.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "どうやって作ったんだろう・・・。",
+          "ko": "어떻게 만들었을까….",
+          "romaji": "Doo yatte tsukuttan daroo…",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "きれいですね。",
+          "ko": "예쁘네요.",
+          "romaji": "Kiree desu ne.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "みんなで写真を撮りましょう。",
+          "ko": "다 같이 사진을 찍읍시다.",
+          "romaji": "Minna de shashin o torimashoo.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "いいね。",
+          "ko": "좋아.",
+          "romaji": "Iine.",
+          "polite": false,
+          "tip": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-23",
+      "mode": "GENERAL",
+      "situation": "NHK WORLD-JAPAN · 레슨 23 — 레슨23 나는 이 고양이를 좋아해요.",
+      "description": "레슨23: 탐은 오늘 아야카, 마이크와 함께 고양이하고 놀 수 있는 \"고양이 카페\"에 와 있습니다.",
+      "title": "레슨23 나는 이 고양이를 좋아해요.",
+      "order": 23,
+      "pageUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/lessons/23.html",
+      "audioUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/mp3/audio_lesson_23.mp3",
+      "audioAsset": "audio/audio_lesson_23.mp3",
+      "utterances": [
+        {
+          "speaker": "A",
+          "ja": "かわいい。",
+          "ko": "귀엽다.",
+          "romaji": "Kawaii.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "みんなごはんを食べています。",
+          "ko": "모두 밥을 먹고 있어요.",
+          "romaji": "Minna gohan o tabete imasu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "本当にかわいいね。",
+          "ko": "정말로 귀엽네.",
+          "romaji": "Hontoo ni kawaii ne.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "おいで、おいで！",
+          "ko": "이리 와, 이리 와！",
+          "romaji": "Oide, oide!",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "私はこの子が好き。",
+          "ko": "나는 얘가 좋아.",
+          "romaji": "Watashi wa konoko ga suki.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "私はこの猫が好きです。",
+          "ko": "나는 이 고양이를 좋아해요.",
+          "romaji": "Watashi wa kono neko ga suki desu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "猫カフェって、リラックスできるよね。",
+          "ko": "고양이 카페는 느긋하게 쉴 수 있지？",
+          "romaji": "Neko-kafe tte,  rirakkusu dekiru yo ne.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "ほんとですね。",
+          "ko": "정말 그래요.",
+          "romaji": "Honto desu ne.",
+          "polite": true,
+          "tip": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-24",
+      "mode": "GENERAL",
+      "situation": "NHK WORLD-JAPAN · 레슨 24 — 레슨24 날계란은 못 먹어요.",
+      "description": "레슨24: \"하루상하우스\"에서는 오늘 가이토가 모두에게 아침식사를 만들어 주었습니다. 일본의 전형적인 아침 밥인 것 같습니다.",
+      "title": "레슨24 날계란은 못 먹어요.",
+      "order": 24,
+      "pageUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/lessons/24.html",
+      "audioUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/mp3/audio_lesson_24.mp3",
+      "audioAsset": "audio/audio_lesson_24.mp3",
+      "utterances": [
+        {
+          "speaker": "A",
+          "ja": "いただきます。",
+          "ko": "잘 먹겠습니다.",
+          "romaji": "Itadakimasu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "日本食は健康にいいんですよ。",
+          "ko": "일본 음식은 건강에 좋아요.",
+          "romaji": "Nihon-shoku wa kenkoo ni iin desu yo.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "これ、生卵ですか。",
+          "ko": "이거 날계란이에요？",
+          "romaji": "Kore, nama-tamago desu ka.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "はい。",
+          "ko": "네.",
+          "romaji": "Hai.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "すみません。",
+          "ko": "미안해요.",
+          "romaji": "Sumimasen.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "私、生卵は食べられません。",
+          "ko": "저 날계란은 못 먹어요.",
+          "romaji": "Watashi, nama-tamago wa taberaremasen.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "そう。じゃあ、納豆もだめ？",
+          "ko": "그래？ 그럼 낫토도 못 먹어？",
+          "romaji": "Soo. Jaa, nattoo mo dame?",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "納豆！大好きです。",
+          "ko": "낫토！ 아주 좋아해요.",
+          "romaji": "Nattoo! Daisuki desu.",
+          "polite": true,
+          "tip": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-25",
+      "mode": "GENERAL",
+      "situation": "NHK WORLD-JAPAN · 레슨 25 — 레슨25 목이 아프거든요.",
+      "description": "레슨25: 탐은 오늘 왠지 몸 상태가 안 좋아 보입니다. 하루상의 센서가 이상하다는 걸 감지했습니다.",
+      "title": "레슨25 목이 아프거든요.",
+      "order": 25,
+      "pageUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/lessons/25.html",
+      "audioUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/mp3/audio_lesson_25.mp3",
+      "audioAsset": "audio/audio_lesson_25.mp3",
+      "utterances": [
+        {
+          "speaker": "A",
+          "ja": "タムさん、顔色が悪いですよ。",
+          "ko": "탐 씨, 안색이 나빠요.",
+          "romaji": "Tamu-san, kaoiro ga warui desu yo.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "どうしたんですか。",
+          "ko": "왜 그래요？",
+          "romaji": "Doo shitan desu ka.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "のどが痛いんです。",
+          "ko": "목이 아프거든요.",
+          "romaji": "Nodo ga itain desu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "おやおや。",
+          "ko": "어머나！",
+          "romaji": "Oya oya.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "そんなときには「しょうがはちみつ湯」がいいですよ。",
+          "ko": "그럴 때는 \"생강꿀차\" 가 좋은데요.",
+          "romaji": "Sonna toki ni wa \"shooga-hachimitsu-yu\" ga ii desu yo.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "海斗が今、作っています。",
+          "ko": "가이토가 지금 만들고 있어요.",
+          "romaji": "Kaito ga ima, tsukutte imasu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "タムさん、できたよ。",
+          "ko": "탐 씨, 다 됐어.",
+          "romaji": "Tamu-san, dekita yo.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "はい、どうぞ。",
+          "ko": "자, 여기.",
+          "romaji": "Hai, doozo.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "お大事に。",
+          "ko": "몸조리 잘 해.",
+          "romaji": "Odaiji ni.",
+          "polite": false,
+          "tip": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-26",
+      "mode": "GENERAL",
+      "situation": "NHK WORLD-JAPAN · 레슨 26 — 레슨26 이 계란말이 달고 맛있어요.",
+      "description": "레슨26: 탐과 하루상하우스에 사는 입주자들이 공원에 벚꽃구경을 하러 왔습니다.",
+      "title": "레슨26 이 계란말이 달고 맛있어요.",
+      "order": 26,
+      "pageUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/lessons/26.html",
+      "audioUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/mp3/audio_lesson_26.mp3",
+      "audioAsset": "audio/audio_lesson_26.mp3",
+      "utterances": [
+        {
+          "speaker": "A",
+          "ja": "お弁当だよ。",
+          "ko": "도시락이야.",
+          "romaji": "Obentoo da yo.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "ぼくが作ったんだ。どうぞ。",
+          "ko": "내가 만들었어. 자.",
+          "romaji": "Boku ga tsukuttan da. Doozo.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "きれい！",
+          "ko": "예쁘다！",
+          "romaji": "Kiree!",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "すごい！いただきます。",
+          "ko": "대단하다！ 잘 먹겠습니다.",
+          "romaji": "Sugoi! Itadakimasu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "この卵焼き、甘くておいしいです。",
+          "ko": "이 계란말이 달고 맛있어요.",
+          "romaji": "Kono tamago-yaki, amakute oishii desu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "海斗は本当に料理が上手だね。",
+          "ko": "가이토는 정말 요리를 잘하네.",
+          "romaji": "Kaito wa hontoo ni ryoori ga joozu da ne.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "ぼく、シェフになりたいんだ。",
+          "ko": "나 셰프가 되고 싶어.",
+          "romaji": "Boku, shefu ni naritain da.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "いいねえ。",
+          "ko": "좋지.",
+          "romaji": "Ii nee.",
+          "polite": false,
+          "tip": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-27",
+      "mode": "GENERAL",
+      "situation": "NHK WORLD-JAPAN · 레슨 27 — 레슨27 어느 게 제일 맛있어요？",
+      "description": "레슨27: 가이토를 따라 라면가게에 온 탐. 이전에 베트남에서 만난 음대생 유키가 생각납니다.",
+      "title": "레슨27 어느 게 제일 맛있어요？",
+      "order": 27,
+      "pageUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/lessons/27.html",
+      "audioUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/mp3/audio_lesson_27.mp3",
+      "audioAsset": "audio/audio_lesson_27.mp3",
+      "utterances": [
+        {
+          "speaker": "A",
+          "ja": "ご注文は？",
+          "ko": "주문은요？",
+          "romaji": "Gochuumon wa?",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "タムさん、何にする？",
+          "ko": "탐 씨, 뭘로 할래？",
+          "romaji": "Tamu-san, nani ni suru?",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "どれが一番おいしいですか。",
+          "ko": "어느 게 제일 맛있어요？",
+          "romaji": "Dore ga ichiban oishii desu ka.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "みそラーメンがおすすめだよ。",
+          "ko": "된장라면이 추천할 만해요.",
+          "romaji": "Miso-raamen ga osusume da yo.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "みそラーメン・・・。",
+          "ko": "된장라면・・・.",
+          "romaji": "Miso-raamen...",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "日本のラーメンはおいしいよ。",
+          "ko": "일본 라면은 맛있어.",
+          "romaji": "Nihon no raamen wa oishii yo.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "ぼくはみそラーメンが好きなんだ。",
+          "ko": "난 된장라면을 좋아해.",
+          "romaji": "Boku wa miso-raamen ga suki nan da.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "私、みそラーメンにします。",
+          "ko": "저 된장라면으로 할래요.",
+          "romaji": "Watashi, miso-raamen ni shimasu.",
+          "polite": true,
+          "tip": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-28",
+      "mode": "GENERAL",
+      "situation": "NHK WORLD-JAPAN · 레슨 28 — 레슨28 사진을 찍어도 돼요？",
+      "description": "레슨28: 취재를 하러 가마쿠라에 온 미야. 절에서는 피아노 콘서트가 열리고 있습니다.",
+      "title": "레슨28 사진을 찍어도 돼요？",
+      "order": 28,
+      "pageUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/lessons/28.html",
+      "audioUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/mp3/audio_lesson_28.mp3",
+      "audioAsset": "audio/audio_lesson_28.mp3",
+      "utterances": [
+        {
+          "speaker": "A",
+          "ja": "大人1人お願いします。",
+          "ko": "어른 한 명 부탁합니다.",
+          "romaji": "Otona hitori onegai-shimasu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "すみません。",
+          "ko": "저기요.",
+          "romaji": "Sumimasen.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "写真を撮ってもいいですか。",
+          "ko": "사진을 찍어도 돼요？",
+          "romaji": "Shashin o totte mo ii desu ka.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "ええ、いいですよ。",
+          "ko": "네, 괜찮아요.",
+          "romaji": "Ee, ii desu yo.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "すてき！",
+          "ko": "멋지다！",
+          "romaji": "Suteki!",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "お客様、ここから先はご遠慮ください。",
+          "ko": "손님, 여기서부터는 삼가 주세요.",
+          "romaji": "Okyakusama, koko kara saki wa goenryo-kudasai.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "あ、すみません。",
+          "ko": "아, 미안합니다.",
+          "romaji": "A, sumimasen.",
+          "polite": true,
+          "tip": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-29",
+      "mode": "GENERAL",
+      "situation": "NHK WORLD-JAPAN · 레슨 29 — 레슨29 피아노 연주를 들으러 갔어요.",
+      "description": "레슨29: 가마쿠라에서 피아노 연주를 들은 미야는 거기에서 찍은 사진을 탐에게 보여 주었습니다. 사진을 본 탐은 놀랍니다.",
+      "title": "레슨29 피아노 연주를 들으러 갔어요.",
+      "order": 29,
+      "pageUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/lessons/29.html",
+      "audioUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/mp3/audio_lesson_29.mp3",
+      "audioAsset": "audio/audio_lesson_29.mp3",
+      "utterances": [
+        {
+          "speaker": "A",
+          "ja": "日曜日に、ピアノの演奏を聴きに行きました。",
+          "ko": "일요일에 피아노 연주를 들으러 갔어요.",
+          "romaji": "Nichi-yoobi ni, piano no ensoo o kiki ni ikimashita.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "どうでしたか。",
+          "ko": "어땠어요？",
+          "romaji": "Doo deshita ka.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "すばらしかったです。",
+          "ko": "근사했어요.",
+          "romaji": "Subarashikatta desu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "それはよかったですね。",
+          "ko": "그거 다행이네요.",
+          "romaji": "Sore wa yokatta desu ne.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "写真をたくさん撮りました。",
+          "ko": "사진을 많이 찍었어요.",
+          "romaji": "Shashin o takusan torimashita.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "見てください。",
+          "ko": "보세요.",
+          "romaji": "Mite kudasai.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "あ！これ、悠輝さん・・・。",
+          "ko": "아！ 이거 유키 씨・・・.",
+          "romaji": "A! Kore, Yuuki-san...",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "悠輝さん？",
+          "ko": "유키 씨？",
+          "romaji": "Yuuki-san?",
+          "polite": false,
+          "tip": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-30",
+      "mode": "GENERAL",
+      "situation": "NHK WORLD-JAPAN · 레슨 30 — 레슨30 같이 노래를 부르거나 춤을 추거나 했어요.",
+      "description": "레슨30: 미야와 카페에 들어간 탐은 음대생 유키와의 추억을 이야기합니다.",
+      "title": "레슨30 같이 노래를 부르거나 춤을 추거나 했어요.",
+      "order": 30,
+      "pageUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/lessons/30.html",
+      "audioUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/mp3/audio_lesson_30.mp3",
+      "audioAsset": "audio/audio_lesson_30.mp3",
+      "utterances": [
+        {
+          "speaker": "A",
+          "ja": "メロンパフェでございます。",
+          "ko": "멜론 파르페입니다.",
+          "romaji": "Meron-pafe de gozaimasu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "おいしそう！",
+          "ko": "맛있겠다！",
+          "romaji": "Oishisoo!",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "タム、悠輝さんと、どこで会ったの？",
+          "ko": "탐, 유키 씨하고 어디에서 만났어？",
+          "romaji": "Tamu, Yuuki-san to, doko de atta no?",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "ベトナムです。",
+          "ko": "베트남요.",
+          "romaji": "Betonamu desu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "小学校でボランティアをしました。",
+          "ko": "초등학교에서 자원봉사를 했어요.",
+          "romaji": "Shoogakkoo de borantia o shimashita.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "一緒に歌ったり、踊ったりしました。",
+          "ko": "같이 노래를 부르거나 춤을 추거나 했어요.",
+          "romaji": "Issho ni utattari, odottari shimashita.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "そうだったの。",
+          "ko": "그랬구나.",
+          "romaji": "Soo datta no.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "はい。悠輝さんに会いたいです。",
+          "ko": "네. 유키 씨를 만나고 싶어요.",
+          "romaji": "Hai. Yuuki-san ni aitai desu.",
+          "polite": true,
+          "tip": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-31",
+      "mode": "GENERAL",
+      "situation": "NHK WORLD-JAPAN · 레슨 31 — 레슨31 같이 가지 않을래요？",
+      "description": "레슨31: 일본문화를 좋아하는 미국인 마이크가 여행에 대해 의논을 하러",
+      "title": "레슨31 같이 가지 않을래요？",
+      "order": 31,
+      "pageUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/lessons/31.html",
+      "audioUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/mp3/audio_lesson_31.mp3",
+      "audioAsset": "audio/audio_lesson_31.mp3",
+      "utterances": [
+        {
+          "speaker": "A",
+          "ja": "今度の土曜日、海斗と忍者博物館に行きます。",
+          "ko": "이번 토요일에 가이토하고 닌자박물관에 가요.",
+          "romaji": "Kondo no do-yoobi, Kaito to Ninja-Hakubutsukan ni ikimasu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "マイクさんは、本当に忍者が好きですね。",
+          "ko": "마이크 씨는 정말로 닌자를 좋아하는군요.",
+          "romaji": "Maiku-san wa, hontoo ni ninja ga suki desu ne.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "はい。",
+          "ko": "네.",
+          "romaji": "Hai.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "みんなで一緒に行きませんか。",
+          "ko": "다 같이 가지 않을래요？",
+          "romaji": "Minna de issho ni ikimasen ka.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "ああ、土曜日はちょっと・・・。",
+          "ko": "아, 토요일은 좀・・・.",
+          "romaji": "Aa, do-yoobi wa chotto...",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "私も授業があります。",
+          "ko": "저도 수업이 있어요.",
+          "romaji": "Watashi mo jugyoo ga arimasu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "残念。",
+          "ko": "아쉽네.",
+          "romaji": "Zannen.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "じゃあ、2人で行こう。",
+          "ko": "그럼, 둘이서 가자.",
+          "romaji": "Jaa, futari de ikoo.",
+          "polite": false,
+          "tip": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-32",
+      "mode": "GENERAL",
+      "situation": "NHK WORLD-JAPAN · 레슨 32 — 레슨32 닌자박물관까지 어떻게 가면 돼요？",
+      "description": "레슨32: 마이크와 가이토는 미에 현의 닌자박물관에 가려고 합니다. 마이크는 닌자 복장으로 갈아입었습니다.",
+      "title": "레슨32 닌자박물관까지 어떻게 가면 돼요？",
+      "order": 32,
+      "pageUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/lessons/32.html",
+      "audioUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/mp3/audio_lesson_32.mp3",
+      "audioAsset": "audio/audio_lesson_32.mp3",
+      "utterances": [
+        {
+          "speaker": "A",
+          "ja": "マイク、似合うね。かっこいい。",
+          "ko": "마이크 어울려. 멋지다.",
+          "romaji": "Maiku, niau ne. Kakkoii.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "うれしいな。",
+          "ko": "기쁘네.",
+          "romaji": "Ureshii na.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "あのう、すみません。",
+          "ko": "저, 저기요.",
+          "romaji": "Anoo, sumimasen.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "忍者博物館まで、どう行ったらいいですか。",
+          "ko": "닌자박물관까지 어떻게 가면 돼요？",
+          "romaji": "Ninja-Hakubutsukan made, doo ittara ii desu ka.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "この道をまっすぐ行ってください。",
+          "ko": "이 길을 곧장 가세요.",
+          "romaji": "Kono michi o massugu itte kudasai.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "博物館は、左にあります。",
+          "ko": "박물관은 왼쪽에 있어요.",
+          "romaji": "Hakubutsukan wa, hidari ni arimasu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "わかりました。",
+          "ko": "알겠습니다.",
+          "romaji": "Wakarimashita.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "ありがとうございます。",
+          "ko": "감사합니다.",
+          "romaji": "Arigatoo gozaimasu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "さあ、行こう！",
+          "ko": "자, 가자！",
+          "romaji": "Saa, ikoo!",
+          "polite": false,
+          "tip": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-33",
+      "mode": "GENERAL",
+      "situation": "NHK WORLD-JAPAN · 레슨 33 — 레슨33 얼마나 기다려요？",
+      "description": "레슨33: 가이토와 마이크는 닌자박물관에 무사히 도착했습니다. 두 사람은 수리검을 던지는 체험을 하기로 했습니다.",
+      "title": "레슨33 얼마나 기다려요？",
+      "order": 33,
+      "pageUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/lessons/33.html",
+      "audioUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/mp3/audio_lesson_33.mp3",
+      "audioAsset": "audio/audio_lesson_33.mp3",
+      "utterances": [
+        {
+          "speaker": "A",
+          "ja": "どのくらい待ちますか。",
+          "ko": "얼마나 기다려요？",
+          "romaji": "Donokurai machimasu ka.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "15分くらいです。",
+          "ko": "15분 정도요.",
+          "romaji": "Juu-go-fun kurai desu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "わかりました。",
+          "ko": "알겠습니다.",
+          "romaji": "Wakarimashita.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "すごい！",
+          "ko": "대단하다！",
+          "romaji": "Sugoi!",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "本物の手裏剣だ。",
+          "ko": "진짜 수리검이야.",
+          "romaji": "Honmono no shuriken da.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "あの的に投げてください。",
+          "ko": "저 과녁을 향해 던지세요.",
+          "romaji": "Ano mato ni nagete kudasai.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "えい！",
+          "ko": "에잇！",
+          "romaji": "Ei!",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "あ、落ちちゃった。",
+          "ko": "아, 떨어져 버렸다.",
+          "romaji": "A, ochichatta.",
+          "polite": false,
+          "tip": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-34",
+      "mode": "GENERAL",
+      "situation": "NHK WORLD-JAPAN · 레슨 34 — 레슨34 읽은 적 있어요",
+      "description": "레슨34: 탐은 마이크와 함께 만화 카페에 왔습니다. 만화와 잡지가 많이 놓여 있습니다.",
+      "title": "레슨34 읽은 적 있어요",
+      "order": 34,
+      "pageUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/lessons/34.html",
+      "audioUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/mp3/audio_lesson_34.mp3",
+      "audioAsset": "audio/audio_lesson_34.mp3",
+      "utterances": [
+        {
+          "speaker": "A",
+          "ja": "わあ、マンガがたくさん！",
+          "ko": "와, 만화가 많다！",
+          "romaji": "Waa, manga ga takusan!",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "タムさん、このマンガ、知ってる？",
+          "ko": "탐 씨, 이 만화 알아？",
+          "romaji": "Tamu-san, kono manga, shitteru?",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "はい、読んだことあります。",
+          "ko": "네, 읽은 적 있어요.",
+          "romaji": "Hai, yonda koto arimasu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "え？日本語で読んだの？",
+          "ko": "어？ 일본어로 읽었어？",
+          "romaji": "E? Nihongo de yonda no?",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "いえ、ベトナム語です。",
+          "ko": "아니요, 베트남어로요.",
+          "romaji": "Ie, Betonamugo desu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "とてもおもしろかったです。",
+          "ko": "아주 재미있었어요.",
+          "romaji": "Totemo omoshirokatta desu.",
+          "polite": true,
+          "tip": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-35",
+      "mode": "GENERAL",
+      "situation": "NHK WORLD-JAPAN · 레슨 35 — 레슨35 오와쿠다니에 가서 검은 달걀을 먹고 싶어요",
+      "description": "레슨35: 탐은 아야카와 함께 전철로 도쿄 근교에 있는 관광지인 하코네로 향하고 있습니다.",
+      "title": "레슨35 오와쿠다니에 가서 검은 달걀을 먹고 싶어요",
+      "order": 35,
+      "pageUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/lessons/35.html",
+      "audioUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/mp3/audio_lesson_35.mp3",
+      "audioAsset": "audio/audio_lesson_35.mp3",
+      "utterances": [
+        {
+          "speaker": "A",
+          "ja": "箱根には1時に着くよ。",
+          "ko": "하코네에는 1시에 도착해.",
+          "romaji": "Hakone ni wa ichi-ji ni tsuku yo.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "タムは何がしたい？",
+          "ko": "탐은 뭐가 하고 싶어？",
+          "romaji": "Tamu wa nani ga shitai?",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "大涌谷に行って、黒たまごが食べたいです。",
+          "ko": "오와쿠다니에 가서 검은 달걀을 먹고 싶어요.",
+          "romaji": "Oowaku-dani ni itte, kuro-tamago ga tabetai desu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "あやかさん、卵は本当に黒いんですか。",
+          "ko": "아야카 씨, 달걀은 정말로 검은색이에요？",
+          "romaji": "Ayaka-san, tamago wa hontoo ni kuroin desu ka.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "うん。",
+          "ko": "응.",
+          "romaji": "Un.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "でもね、黒いのは外側だけ。",
+          "ko": "하지만 검은 건 겉뿐이야.",
+          "romaji": "Demo ne, kuroi no wa sotogawa dake.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "中は普通のゆで卵。",
+          "ko": "속은 보통 삶은 달걀.",
+          "romaji": "Naka wa futsuu no yude-tamago.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "へえ。",
+          "ko": "아아.",
+          "romaji": "Hee.",
+          "polite": false,
+          "tip": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-36",
+      "mode": "GENERAL",
+      "situation": "NHK WORLD-JAPAN · 레슨 36 — 레슨36 목욕은 몇 시부터 몇 시까지예요？",
+      "description": "레슨36: 탐과 아야카는 하코네의 온천여관에 도착했습니다. 여관 종업원이 방까지 안내해 줍니다.",
+      "title": "레슨36 목욕은 몇 시부터 몇 시까지예요？",
+      "order": 36,
+      "pageUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/lessons/36.html",
+      "audioUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/mp3/audio_lesson_36.mp3",
+      "audioAsset": "audio/audio_lesson_36.mp3",
+      "utterances": [
+        {
+          "speaker": "A",
+          "ja": "こちらのお部屋でございます。",
+          "ko": "이 방입니다.",
+          "romaji": "Kochira no oheya de gozaimasu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "お風呂は何時から何時までですか。",
+          "ko": "목욕은 몇 시부터 몇 시까지예요？",
+          "romaji": "Ofuro wa nan-ji kara nan-ji made desu ka.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "朝6時から夜12時までです。",
+          "ko": "아침 6시부터 밤 12시까지입니다.",
+          "romaji": "Asa roku-ji kara yoru juuni-ji made desu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "タム、日本の温泉、入ったことある？",
+          "ko": "탐, 일본의 온천 들어간 적 있어？",
+          "romaji": "Tamu, Nihon no onsen, haitta koto aru?",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "いいえ、初めてです。",
+          "ko": "아니요, 처음이에요.",
+          "romaji": "Iie, hajimete desu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "楽しみです。",
+          "ko": "기대돼요.",
+          "romaji": "Tanoshimi desu.",
+          "polite": true,
+          "tip": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-37",
+      "mode": "GENERAL",
+      "situation": "NHK WORLD-JAPAN · 레슨 37 — 레슨37 텔레비전이 안 켜지는데요…",
+      "description": "레슨37: 하코네에 놀러 온 탐과 아야카는 온천여관의 방에 들어갔는데 뭔가 문제가 있는 것 같아요.",
+      "title": "레슨37 텔레비전이 안 켜지는데요…",
+      "order": 37,
+      "pageUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/lessons/37.html",
+      "audioUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/mp3/audio_lesson_37.mp3",
+      "audioAsset": "audio/audio_lesson_37.mp3",
+      "utterances": [
+        {
+          "speaker": "A",
+          "ja": "あれ、テレビがつきませんね。",
+          "ko": "어, 텔레비전이 안 켜지네요.",
+          "romaji": "Are, terebi ga tsukimasen ne.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "ほんとだ。",
+          "ko": "정말이네.",
+          "romaji": "Honto da.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "おかしいね。",
+          "ko": "이상한데.",
+          "romaji": "Okashii ne.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "フロントに電話してみます。",
+          "ko": "프런트에 전화해 볼게요.",
+          "romaji": "Furonto ni denwa-shite mimasu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "すみません。テレビがつかないんですが・・・。",
+          "ko": "저기요. 텔레비전이 안 켜지는데요….",
+          "romaji": "Sumimasen. Terebi ga tsukanain desu ga...",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "少々お待ちください。",
+          "ko": "잠시 기다려 주세요.",
+          "romaji": "Shooshoo omachi kudasai.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "担当の者が伺います。",
+          "ko": "담당자가 찾아뵙겠습니다.",
+          "romaji": "Tantoo no mono ga ukagaimasu.",
+          "polite": true,
+          "tip": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-38",
+      "mode": "GENERAL",
+      "situation": "NHK WORLD-JAPAN · 레슨 38 — 레슨38 밖이 더 좋아요",
+      "description": "레슨38: 하코네에 와 있는 탐과 아야카는 아시노코 호수의 유람선을 타기로 했습니다.",
+      "title": "레슨38 밖이 더 좋아요",
+      "order": 38,
+      "pageUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/lessons/38.html",
+      "audioUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/mp3/audio_lesson_38.mp3",
+      "audioAsset": "audio/audio_lesson_38.mp3",
+      "utterances": [
+        {
+          "speaker": "A",
+          "ja": "タム、中に座る？",
+          "ko": "탐, 안에 앉을래？",
+          "romaji": "Tamu, naka ni suwaru?",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "それとも、外のデッキに行く？",
+          "ko": "아니면 밖의 갑판으로 갈래？",
+          "romaji": "Soretomo, soto no dekki ni iku?",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "外のほうがいいです。",
+          "ko": "밖이 더 좋아요.",
+          "romaji": "Soto no hoo ga ii desu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "わあ、富士山！きれい！",
+          "ko": "와, 후지산！ 예쁘다！",
+          "romaji": "Waa, Fuji-san! Kiree!",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "本当。",
+          "ko": "정말 그렇네.",
+          "romaji": "Hontoo.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "気持ちいい！",
+          "ko": "기분 좋다！",
+          "romaji": "Kimochi ii!",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "今日は、晴れてよかったね。",
+          "ko": "오늘은 맑아서 다행이야.",
+          "romaji": "Kyoo wa, harete yokatta ne.",
+          "polite": false,
+          "tip": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-39",
+      "mode": "GENERAL",
+      "situation": "NHK WORLD-JAPAN · 레슨 39 — 레슨39 지갑을 잃어버렸어요",
+      "description": "레슨39: 탐에게 문제 발생！ 셰어하우스로 돌아오자마자 하루상에게 도움을 청했습니다.",
+      "title": "레슨39 지갑을 잃어버렸어요",
+      "order": 39,
+      "pageUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/lessons/39.html",
+      "audioUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/mp3/audio_lesson_39.mp3",
+      "audioAsset": "audio/audio_lesson_39.mp3",
+      "utterances": [
+        {
+          "speaker": "A",
+          "ja": "はるさーん、財布を落としてしまいました。",
+          "ko": "하루상, 지갑을 잃어버렸어요.",
+          "romaji": "Haru-saan, saifu o otoshite shimaimashita.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "あら大変。交番に行ってごらんなさい。",
+          "ko": "어머 큰일 났네. 파출소에 가 봐요.",
+          "romaji": "Ara taihen. Kooban ni itte gorannasai.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "それで、どんな財布ですか。",
+          "ko": "그런데 어떤 지갑입니까？",
+          "romaji": "Sorede, donna saifu desu ka.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "黄色い財布です。",
+          "ko": "노란 지갑이에요.",
+          "romaji": "Kiiroi saifu desu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "ああ、黄色・・・。これですか。",
+          "ko": "아, 노란색・・・. 이거예요？",
+          "romaji": "Aa, kiiro… Kore desu ka.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "ああ、それです。",
+          "ko": "아, 그거예요.",
+          "romaji": "Aa, sore desu.",
+          "polite": true,
+          "tip": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-40",
+      "mode": "GENERAL",
+      "situation": "NHK WORLD-JAPAN · 레슨 40 — 레슨40 처음이라서 깜짝 놀랐어요",
+      "description": "레슨40:",
+      "title": "레슨40 처음이라서 깜짝 놀랐어요",
+      "order": 40,
+      "pageUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/lessons/40.html",
+      "audioUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/mp3/audio_lesson_40.mp3",
+      "audioAsset": "audio/audio_lesson_40.mp3",
+      "utterances": [
+        {
+          "speaker": "A",
+          "ja": "あ、揺れてる。",
+          "ko": "아, 흔들린다.",
+          "romaji": "A, yureteru.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "地震！助けて！",
+          "ko": "지진이다！ 사람 살려！",
+          "romaji": "Jishin! Tasukete!",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "落ち着いてください。",
+          "ko": "침착하세요.",
+          "romaji": "Ochitsuite kudasai.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "大丈夫ですよ。",
+          "ko": "괜찮아요.",
+          "romaji": "Daijoobu desu yo.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "ほら、もうおさまった。",
+          "ko": "거봐, 이제 가라앉았어.",
+          "romaji": "Hora, moo osamatta.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "初めてだったから、 びっくりしました。",
+          "ko": "처음이라서 깜짝 놀랐어요.",
+          "romaji": "Hajimete datta kara, bikkuri-shimashita.",
+          "polite": false,
+          "tip": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-41",
+      "mode": "GENERAL",
+      "situation": "NHK WORLD-JAPAN · 레슨 41 — 레슨41 티켓을 살 수 있어요？",
+      "description": "레슨41: 미야가 탐을 부릅니다. 뭔가 뉴스를 발견한 것 같네요.",
+      "title": "레슨41 티켓을 살 수 있어요？",
+      "order": 41,
+      "pageUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/lessons/41.html",
+      "audioUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/mp3/audio_lesson_41.mp3",
+      "audioAsset": "audio/audio_lesson_41.mp3",
+      "utterances": [
+        {
+          "speaker": "A",
+          "ja": "タム、見て！",
+          "ko": "탐, 봐！",
+          "romaji": "Tamu, mite!",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "悠輝さんがピアノコンクールで優勝したよ。",
+          "ko": "유키 씨가 피아노 콩쿠르에서 우승했어.",
+          "romaji": "Yuuki-san ga piano-konkuuru de yuushoo-shita yo.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "あ、ほんとだ。",
+          "ko": "아, 정말이네！",
+          "romaji": "A, honto da.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "すごい。",
+          "ko": "대단하다.",
+          "romaji": "Sugoi.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "来月2日にコンサートがあるよ。",
+          "ko": "다음달 2일에 콘서트가 있어.",
+          "romaji": "Raigetsu futsuka ni konsaato ga aru yo.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "行きたいです。",
+          "ko": "가고 싶어요.",
+          "romaji": "Ikitai desu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "チケットを買うことができますか。",
+          "ko": "티켓을 살 수 있어요？",
+          "romaji": "Chiketto o kau koto ga dekimasu ka.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "予約してみるね。",
+          "ko": "예약해 볼게.",
+          "romaji": "Yoyaku-shite miru ne.",
+          "polite": false,
+          "tip": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-42",
+      "mode": "GENERAL",
+      "situation": "NHK WORLD-JAPAN · 레슨 42 — 레슨42 유키 씨에게 줄 거예요.",
+      "description": "레슨42: 탐은 동경하는 피아니스트 유키의 콘서트에 미야와 함께 왔습니다.",
+      "title": "레슨42 유키 씨에게 줄 거예요.",
+      "order": 42,
+      "pageUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/lessons/42.html",
+      "audioUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/mp3/audio_lesson_42.mp3",
+      "audioAsset": "audio/audio_lesson_42.mp3",
+      "utterances": [
+        {
+          "speaker": "A",
+          "ja": "タム、きれいなお花だね。",
+          "ko": "탐, 예쁜 꽃이네.",
+          "romaji": "Tamu, kiree na ohana da ne.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "悠輝さんに渡すつもりです。",
+          "ko": "유키 씨에게 줄 거예요.",
+          "romaji": "Yuuki-san ni watasu tsumori desu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "すごくよかったです！",
+          "ko": "정말 좋았어요！",
+          "romaji": "Sugoku yokatta desu!",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "さあ、楽屋に行こう。",
+          "ko": "자, 대기실로 가자.",
+          "romaji": "Saa, gakuya ni ikoo.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "はい。",
+          "ko": "네.",
+          "romaji": "Hai.",
+          "polite": false,
+          "tip": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-43",
+      "mode": "GENERAL",
+      "situation": "NHK WORLD-JAPAN · 레슨 43 — 레슨43 건강한 것 같네요.",
+      "description": "레슨43: 유키의 콘서트가 끝난 뒤 탐과 미야는 대기실로 찾아갔습니다.",
+      "title": "레슨43 건강한 것 같네요.",
+      "order": 43,
+      "pageUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/lessons/43.html",
+      "audioUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/mp3/audio_lesson_43.mp3",
+      "audioAsset": "audio/audio_lesson_43.mp3",
+      "utterances": [
+        {
+          "speaker": "A",
+          "ja": "悠輝さん、お久しぶりです。",
+          "ko": "유키 씨, 오래간만이에요.",
+          "romaji": "Yuuki-san, ohisashiburi desu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "あ！タムさん・・・。",
+          "ko": "아！  탐 씨・・・.",
+          "romaji": "A! Tamu san ...",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "去年、日本に来ました。",
+          "ko": "작년에 일본에 왔어요.",
+          "romaji": "Kyonen, Nihon ni kimashita.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "日本語を勉強しています。",
+          "ko": "일본어를 공부하고 있어요.",
+          "romaji": "Nihongo o benkyoo-shite imasu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "そう。夢がかなったんですね。",
+          "ko": "그래. 꿈이 이루어졌군요.",
+          "romaji": "Soo. Yume ga kanattan desu ne.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "はい。悠輝さんも、元気そうですね。",
+          "ko": "네. 유키 씨도 건강한 것 같네요.",
+          "romaji": "Hai. Yuuki-san mo, genki soo desu ne.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "また会えてうれしいです。",
+          "ko": "다시 만나서 반가워요.",
+          "romaji": "Mata aete ureshii desu.",
+          "polite": true,
+          "tip": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-44",
+      "mode": "GENERAL",
+      "situation": "NHK WORLD-JAPAN · 레슨 44 — 레슨44 또 콘서트가 있대요.",
+      "description": "레슨44: 드디어 유키와 재회한 탐. 하루상과 가이토에게 보고를 합니다.",
+      "title": "레슨44 또 콘서트가 있대요.",
+      "order": 44,
+      "pageUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/lessons/44.html",
+      "audioUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/mp3/audio_lesson_44.mp3",
+      "audioAsset": "audio/audio_lesson_44.mp3",
+      "utterances": [
+        {
+          "speaker": "A",
+          "ja": "タムさん、悠輝さんに会えてよかったですね。",
+          "ko": "탐 씨, 유키 씨를 만나서 잘됐네요.",
+          "romaji": "Tamu-san, Yuuki-san ni aete yokatta desu ne.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "はい、とてもうれしいです。",
+          "ko": "네, 아주 기뻐요.",
+          "romaji": "Hai, totemo ureshii desu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "悠輝さんは、活躍してるんだね。",
+          "ko": "유키 씨는 활약하고 있네.",
+          "romaji": "Yuuki-san wa, katsuyaku-shiterun da ne.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "はい。10月にまたコンサートがあるそうです。",
+          "ko": "네. 10월에 또 콘서트가 있대요.",
+          "romaji": "Hai. Juugatsu ni mata konsaato ga aru soo desu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "そうですか。",
+          "ko": "그래요？",
+          "romaji": "Soo desu ka.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "また会えますね。",
+          "ko": "다시 만날 수 있네요.",
+          "romaji": "Mata aemasu ne.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "はい。",
+          "ko": "네.",
+          "romaji": "Hai.",
+          "polite": false,
+          "tip": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-45",
+      "mode": "GENERAL",
+      "situation": "NHK WORLD-JAPAN · 레슨 45 — 레슨45 일본어를 체크해 주시겠어요？",
+      "description": "레슨45: 탐은 집주인 로봇 하루상에게 뭔가 부탁하고 싶은 것이 있는 것 같네요.",
+      "title": "레슨45 일본어를 체크해 주시겠어요？",
+      "order": 45,
+      "pageUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/lessons/45.html",
+      "audioUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/mp3/audio_lesson_45.mp3",
+      "audioAsset": "audio/audio_lesson_45.mp3",
+      "utterances": [
+        {
+          "speaker": "A",
+          "ja": "はるさん、お願いがあるんですが・・・。",
+          "ko": "하루상, 부탁이 있는데요・・・.",
+          "romaji": "Haru-san, onegai ga arun desu ga...",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "メールの日本語をチェックしてもらえませんか。",
+          "ko": "메일에 쓴 일본어를 체크해 주시겠어요？",
+          "romaji": "Meeru no Nihongo o chekku-shite moraemasen ka.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "いいですよ。どれどれ・・・。",
+          "ko": "좋아요. 어디 어디・・・.",
+          "romaji": "Ii desu yo. Dore dore...",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "「悠輝さん、お元気ですか。」",
+          "ko": "\"유키 씨, 잘 지내세요？\"",
+          "romaji": "\"Yuuki-san, ogenki desu ka.\"",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "私の日本語、大丈夫ですか。",
+          "ko": "제 일본어 괜찮아요？",
+          "romaji": "Watashi no Nihongo, daijoobu desu ka.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "とても上手ですよ。",
+          "ko": "아주 잘하네요.",
+          "romaji": "Totemo joozu desu yo.",
+          "polite": true,
+          "tip": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-46",
+      "mode": "GENERAL",
+      "situation": "NHK WORLD-JAPAN · 레슨 46 — 레슨46 작지만 예쁘네요.",
+      "description": "레슨46: \"하루상 하우스\"의 입주자들은 다 같이 교토로 여행을 왔습니다. 지금부터 마치야 (상인 주택)를 활용한 숙소에 체크인합니다.",
+      "title": "레슨46 작지만 예쁘네요.",
+      "order": 46,
+      "pageUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/lessons/46.html",
+      "audioUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/mp3/audio_lesson_46.mp3",
+      "audioAsset": "audio/audio_lesson_46.mp3",
+      "utterances": [
+        {
+          "speaker": "A",
+          "ja": "さあ、着いたよ！",
+          "ko": "자, 도착했다！",
+          "romaji": "Saa, tsuita yo!",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "ごめんください。",
+          "ko": "실례합니다.",
+          "romaji": "Gomenkudasai.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "おいでやす。",
+          "ko": "어서 오십시오.",
+          "romaji": "Oideyasu.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "お部屋はこちらです。",
+          "ko": "방은 이쪽입니다.",
+          "romaji": "Oheya wa kochira desu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "わあ、すてきなお部屋！",
+          "ko": "와, 멋진 방이다！",
+          "romaji": "Waa, suteki na oheya!",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "お庭もあります！",
+          "ko": "정원도 있어요！",
+          "romaji": "Oniwa mo arimasu!",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "小さいけどきれいですね。",
+          "ko": "작지만 예쁘네요.",
+          "romaji": "Chiisai kedo kiree desu ne.",
+          "polite": true,
+          "tip": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-47",
+      "mode": "GENERAL",
+      "situation": "NHK WORLD-JAPAN · 레슨 47 — 레슨47 어떻게 하는 거예요？",
+      "description": "레슨47: \"하루상 하우스\"의 입주자들은 교토의 후시미 이나리 타이사에 왔습니다.",
+      "title": "레슨47 어떻게 하는 거예요？",
+      "order": 47,
+      "pageUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/lessons/47.html",
+      "audioUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/mp3/audio_lesson_47.mp3",
+      "audioAsset": "audio/audio_lesson_47.mp3",
+      "utterances": [
+        {
+          "speaker": "A",
+          "ja": "おみくじだよ。",
+          "ko": "운세를 점치는 제비야.",
+          "romaji": "Omikuji da yo.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "どうやってするんですか。",
+          "ko": "어떻게 하는 거예요？",
+          "romaji": "Doo yatte surun desu ka.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "箱を振ってみて。",
+          "ko": "통을 흔들어 봐.",
+          "romaji": "Hako o futte mite.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "3番です。",
+          "ko": "3번이에요.",
+          "romaji": "San-ban desu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "はい、どうぞ。",
+          "ko": "네, 여기요.",
+          "romaji": "Hai, doozo.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "あ、大吉だ。",
+          "ko": "아, 다이키치야.",
+          "romaji": "A, daikichi da.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "だいきち？どういう意味ですか。",
+          "ko": "다이키치？ 어떤 뜻이에요？",
+          "romaji": "Daikichi? Doo iu imi desu ka.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "とてもいい運勢ですよ。",
+          "ko": "아주 좋은 운세예요.",
+          "romaji": "Totemo ii unsee desu yo.",
+          "polite": true,
+          "tip": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-48",
+      "mode": "GENERAL",
+      "situation": "NHK WORLD-JAPAN · 레슨 48 — 레슨48 졸업하면 일본에서 일하고 싶어요.",
+      "description": "레슨48: \"하루상 하우스\"의 입주자들은 교토의 기요미즈데라 절에 왔습니다. 거기에서 탐은 앞으로의 꿈을 이야기합니다.",
+      "title": "레슨48 졸업하면 일본에서 일하고 싶어요.",
+      "order": 48,
+      "pageUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/lessons/48.html",
+      "audioUrl": "https://www3.nhk.or.jp/nhkworld/lesson/ko/mp3/audio_lesson_48.mp3",
+      "audioAsset": "audio/audio_lesson_48.mp3",
+      "utterances": [
+        {
+          "speaker": "A",
+          "ja": "タムさんが来て、もうすぐ1年ですね。",
+          "ko": "탐 씨가 온 지 이제 곧 1년이네요.",
+          "romaji": "Tamu-san ga kite, moo sugu ichi-nen desu ne.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "将来は何がしたいですか。",
+          "ko": "앞으로 뭘 하고 싶어요？",
+          "romaji": "Shoorai wa nani ga shitai desu ka.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "卒業したら、日本で働きたいです。",
+          "ko": "졸업하면 일본에서 일하고 싶어요.",
+          "romaji": "Sotsugyoo-shitara, Nihon de hatarakitai desu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "旅行会社で働きたいです。",
+          "ko": "여행사에서 일하고 싶어요.",
+          "romaji": "Ryokoo-gaisha de hatarakitai desu.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "いいね！",
+          "ko": "좋다！",
+          "romaji": "Ii ne!",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "日本の魅力をいっぱい伝えてくださいね。",
+          "ko": "일본의 매력을 많이 전해 주세요.",
+          "romaji": "Nihon no miryoku o ippai tsutaete kudasai ne.",
+          "polite": true,
+          "tip": ""
+        },
+        {
+          "speaker": "A",
+          "ja": "応援してるよ。",
+          "ko": "응원할게.",
+          "romaji": "Ooen-shiteru yo.",
+          "polite": false,
+          "tip": ""
+        },
+        {
+          "speaker": "B",
+          "ja": "はい。がんばります！",
+          "ko": "네. 열심히 하겠습니다.",
+          "romaji": "Hai. Ganbarimasu!",
+          "polite": true,
+          "tip": ""
+        }
+      ]
+    }
+  ]
+}

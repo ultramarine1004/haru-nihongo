@@ -2,7 +2,7 @@ package com.haru.nihongo.domain.model
 
 /**
  * 대화 모드. [DEFAULT]는 기획 확정 사항인 "일반인"이다.
- * 콘텐츠는 NHK WORLD-JAPAN 강의로 바뀌었지만 설정 값은 이전 사용자를 위해 유지한다.
+ * 콘텐츠는 NHK 강의 대본으로 바뀌었지만 설정 값은 이전 사용자를 위해 유지한다.
  */
 enum class Mode(
     val labelKo: String,
@@ -25,16 +25,25 @@ enum class Mode(
     }
 }
 
-/**
- * NHK WORLD-JAPAN 강의 한 편.
- * 대본과 음성 파일은 복사하지 않고 공식 링크만 보관한다.
- */
-data class Lesson(
+data class Utterance(
+    /** 대화 상대 구분: "A" 또는 "B". */
+    val speaker: String,
+    val ja: String,
+    val ko: String,
+    val romaji: String,
+    val polite: Boolean,
+    val tip: String = "",
+)
+
+data class Dialogue(
     val id: String,
-    val number: Int,
-    val title: String,
-    val pageUrl: String,
-    val audioUrl: String,
+    val mode: Mode,
+    val title: String = "",
+    val situation: String,
+    val order: Int,
+    val utterances: List<Utterance>,
+    /** 앱 자산에 번들된 NHK 공식 MP3 경로. */
+    val audioAsset: String = "",
 )
 
 data class Settings(

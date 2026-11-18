@@ -1,47 +1,75 @@
 package com.haru.nihongo.data.content
 
 import android.content.Context
-import com.haru.nihongo.domain.model.Lesson
+import com.haru.nihongo.domain.model.Dialogue
+import com.haru.nihongo.domain.model.Mode
+import com.haru.nihongo.domain.model.Utterance
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.Json
 
-/** assets/content/lessons.json 을 앱 번들에서 읽는다. 대본/음성은 포함하지 않는다. */
+/** NHK 공식 페이지에서 추출해 번들한 assets/content/dialogues.json 을 읽는다. */
 class ContentDataSource(context: Context) {
 
-    private val json = Json { ignoreUnknownKeys = true }
-
-    private val bundle: LessonBundle by lazy {
-        val text = context.assets
-            .open("content/lessons.json")
-            .bufferedReader()
-            .use { it.readText() }
-        json.decodeFromString<LessonBundle>(text)
+    private val json = Json {
+        ignoreUnknownKeys = true
+        encodeDefaults = true
     }
 
-    fun lessons(): List<Lesson> = bundle.lessons
-        .sortedBy { it.number }
+    private val bundle: ContentBundle by lazy {
+        val text = context.assets
+            .open("content/dialogues.json")
+            .bufferedReader()
+            .use { it.readText() }
+        json.decodeFromString<ContentBundle>(text)
+    }
+
+    fun dialogues(): List<Dialogue> = bundle.dialogues
+        .sortedBy { it.order }
         .map { dto ->
-            Lesson(
+            Dialogue(
                 id = dto.id,
-                number = dto.number,
+                mode = Mode.fromKey(dto.mode),
                 title = dto.title,
-                pageUrl = dto.pageUrl,
-                audioUrl = dto.audioUrl,
+                situation = dto.situation,
+                order = dto.order,
+                audioAsset = dto.audioAsset,
+                utterances = dto.utterances.map { u ->
+                    Utterance(
+                        speaker = u.speaker,
+                        ja = u.ja,
+                        ko = u.ko,
+                        romaji = u.romaji,
+                        polite = u.polite,
+                        tip = u.tip,
+                    )
+                },
             )
         }
 }
 
 @Serializable
-private data class LessonBundle(
+private data class ContentBundle(
     val source: String = "",
-    val lessons: List<LessonDto>,
+    val dialogues: List<DialogueDto>,
 )
 
 @Serializable
-private data class LessonDto(
+private data class DialogueDto(
     val id: String,
-    val number: Int,
-    val title: String,
-    val pageUrl: String,
-    val audioUrl: String,
+    val mode: String,
+    val title: String = "",
+    val situation: String,
+    val order: Int,
+    val audioAsset: String = "",
+    val utterances: List<UtteranceDto>,
+)
+
+@Serializable
+private data class UtteranceDto(
+    val speaker: String,
+    val ja: String,
+    val ko: String,
+    val romaji: String = "",
+    val polite: Boolean = true,
+    val tip: String = "",
 )

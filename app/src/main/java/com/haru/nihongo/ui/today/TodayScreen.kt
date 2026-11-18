@@ -1,8 +1,6 @@
 package com.haru.nihongo.ui.today
 
 import android.Manifest
-import android.content.Intent
-import android.net.Uri
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.clickable
@@ -48,6 +46,7 @@ import androidx.compose.ui.unit.sp
 import com.haru.nihongo.audio.LessonAudioPlayer
 import com.haru.nihongo.audio.VoicePracticeController
 import com.haru.nihongo.ui.common.CircleActionButton
+import com.haru.nihongo.ui.common.DialogueCard
 import com.haru.nihongo.ui.common.MenuCircleButton
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -57,7 +56,7 @@ fun TodayScreen(
     onOpenMenu: () -> Unit,
 ) {
     val settings by viewModel.settings.collectAsState()
-    val lessons by viewModel.lessons.collectAsState()
+    val dialogues by viewModel.dialogues.collectAsState()
 
     val context = LocalContext.current
     val audioPlayer = remember { LessonAudioPlayer() }
@@ -75,6 +74,9 @@ fun TodayScreen(
     var message by remember { mutableStateOf("") }
     var showLessonPicker by remember { mutableStateOf(false) }
 
+    LaunchedEffect(dialogues) {
+        if (currentIndex >= dialogues.size) currentIndex = 0
+    }
     LaunchedEffect(audioPlayer) {
         audioPlayer.onPlayingChanged = { playing = it }
         audioPlayer.onError = { message = it }
@@ -87,7 +89,7 @@ fun TodayScreen(
             recording = recorder.startRecording()
             message = if (recording) "말해 보세요. 다시 누르면 끝나요." else "녹음을 시작할 수 없어요."
         } else {
-            message = "권한이 없어도 공식 음성은 들을 수 있어요. 😊"
+            message = "권한이 없어도 대화 듣기는 할 수 있어요. 😊"
         }
     }
 
@@ -110,21 +112,16 @@ fun TodayScreen(
         }
     }
 
-    fun toggleLessonAudio() {
-        val lesson = lessons.getOrNull(currentIndex) ?: return
+    fun toggleDialogueAudio() {
+        val current = dialogues.getOrNull(currentIndex) ?: return
         if (playing) {
             audioPlayer.stop()
             message = "음성을 멈췄어요. 다시 누르면 처음부터 재생합니다."
         } else {
-            audioPlayer.play(lesson.audioUrl)
+            audioPlayer.play(context, current.audioAsset)
             viewModel.markListened()
-            message = "NHK 공식 음성을 재생합니다. (인터넷 연결 필요)"
+            message = "NHK 공식 MP3를 재생합니다. (번들 오디오)"
         }
-    }
-
-    fun openOfficialPage() {
-        val lesson = lessons.getOrNull(currentIndex) ?: return
-        context.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(lesson.pageUrl)))
     }
 
     Scaffold(
@@ -158,47 +155,36 @@ fun TodayScreen(
                 .fillMaxSize()
                 .verticalScroll(rememberScrollState()),
         ) {
-            val current = lessons.getOrNull(currentIndex)
-            if (current == null) {
-                Text("강의 목록을 준비하고 있어요.", style = MaterialTheme.typography.bodyLarge)
-            } else {
-                Text(
-                    text = "NHK WORLD-JAPAN · 레슨 ${current.number}",
-                    style = MaterialTheme.typography.bodyMedium,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant,
-                )
-                Spacer(Modifier.height(10.dp))
-                Text(
-                    text = current.title,
-                    fontSize = settings.fontSize.sp,
-                    lineHeight = (settings.fontSize * 1.35f).sp,
-                    fontWeight = FontWeight.Bold,
-                )
-                Spacer(Modifier.height(8.dp))
-                Text(
-                    text = "공식 강의 페이지에서 대본과 단어를 확인할 수 있어요.",
-                    style = MaterialTheme.typography.bodyMedium,
-                )
-                TextButton(onClick = { openOfficialPage() }) {
-                    Text("NHK 공식 강의 보기")
-                }
+            Text(
+                text = "A와 B를 번갈아 따라 해 보세요. 통째로 익히면 쉬워요. 😊",
+                style = MaterialTheme.typography.bodyMedium,
+            )
+            Spacer(Modifier.height(20.dp))
 
-                Spacer(Modifier.height(16.dp))
-                Row(
-                    modifier = Modifier.fillMaxWidth(),
-                    horizontalArrangement = Arrangement.spacedBy(12.dp),
-                ) {
-                    OutlinedButton(
-                        onClick = { moveTo((currentIndex - 1 + lessons.size) % lessons.size) },
-                        modifier = Modifier.height(56.dp).weight(1f),
+            val current = dialogues.getOrNull(currentIndex)
+            if (current == null) {
+                Text("대화를 준비하고 있어요.", style = MaterialTheme.typography.bodyLarge)
+            } else {
+                DialogueCard(dialogue = current, fontSize = settings.fontSize)
+
+                if (dialogues.size > 1) {
+                    Spacer(Modifier.height(24.dp))
+                    Row(
+                        modifier = Modifier.fillMaxWidth(),
+                        horizontalArrangement = Arrangement.spacedBy(12.dp),
                     ) {
-                        Text("< Prev")
-                    }
-                    OutlinedButton(
-                        onClick = { moveTo((currentIndex + 1) % lessons.size) },
-                        modifier = Modifier.height(56.dp).weight(1f),
-                    ) {
-                        Text("Next >")
+                        OutlinedButton(
+                            onClick = { moveTo((currentIndex - 1 + dialogues.size) % dialogues.size) },
+                            modifier = Modifier.height(56.dp).weight(1f),
+                        ) {
+                            Text("< Prev")
+                        }
+                        OutlinedButton(
+                            onClick = { moveTo((currentIndex + 1) % dialogues.size) },
+                            modifier = Modifier.height(56.dp).weight(1f),
+                        ) {
+                            Text("Next >")
+                        }
                     }
                 }
             }
@@ -212,7 +198,7 @@ fun TodayScreen(
                 CircleActionButton(
                     icon = Icons.AutoMirrored.Filled.VolumeUp,
                     label = if (playing) "재생 중지" else "대화 듣기",
-                    onClick = { toggleLessonAudio() },
+                    onClick = { toggleDialogueAudio() },
                 )
                 CircleActionButton(
                     icon = if (recording) Icons.Default.Stop else Icons.Default.Mic,
@@ -247,7 +233,7 @@ fun TodayScreen(
             title = { Text("강의 선택") },
             text = {
                 Column(modifier = Modifier.verticalScroll(rememberScrollState())) {
-                    lessons.forEachIndexed { index, lesson ->
+                    dialogues.forEachIndexed { index, dialogue ->
                         TextButton(
                             onClick = {
                                 moveTo(index)
@@ -255,7 +241,7 @@ fun TodayScreen(
                             },
                             modifier = Modifier.fillMaxWidth(),
                         ) {
-                            Text("레슨 ${lesson.number} · ${lesson.title}")
+                            Text("레슨 ${dialogue.order} · ${dialogue.title}")
                         }
                     }
                 }

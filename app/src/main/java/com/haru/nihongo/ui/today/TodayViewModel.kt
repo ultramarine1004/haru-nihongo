@@ -5,7 +5,8 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
 import com.haru.nihongo.data.repository.LearningRepository
 import com.haru.nihongo.di.AppContainer
-import com.haru.nihongo.domain.model.Lesson
+import com.haru.nihongo.domain.model.Dialogue
+import com.haru.nihongo.domain.model.Mode
 import com.haru.nihongo.domain.model.Progress
 import com.haru.nihongo.domain.model.Settings
 import com.haru.nihongo.util.DateKey
@@ -14,6 +15,7 @@ import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.stateIn
+import kotlinx.coroutines.launch
 
 class TodayViewModel(
     private val repository: LearningRepository,
@@ -31,14 +33,18 @@ class TodayViewModel(
         emptyList(),
     )
 
-    /** NHK 공식 강의 메타데이터를 강의 번호 순으로 노출한다. */
-    val lessons: StateFlow<List<Lesson>> = MutableStateFlow(repository.lessons()).asStateFlow()
+    /** NHK 공식 대본에서 추출한 48개 대화를 강의 번호 순으로 노출한다. */
+    val dialogues: StateFlow<List<Dialogue>> = MutableStateFlow(repository.dialogues()).asStateFlow()
 
     private val _listened = MutableStateFlow(false)
     val listened: StateFlow<Boolean> = _listened.asStateFlow()
 
     private val _recorded = MutableStateFlow(false)
     val recorded: StateFlow<Boolean> = _recorded.asStateFlow()
+
+    fun setMode(mode: Mode) {
+        viewModelScope.launch { repository.setMode(mode) }
+    }
 
     fun markListened() {
         _listened.value = true
@@ -52,7 +58,7 @@ class TodayViewModel(
     suspend fun complete() {
         repository.complete(
             date = DateKey.today(),
-            count = lessons.value.size.coerceAtLeast(1),
+            count = dialogues.value.size.coerceAtLeast(1),
             listened = _listened.value,
             recorded = _recorded.value,
         )

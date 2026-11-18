@@ -1,6 +1,6 @@
-"""콘텐츠 번들(lessons.json) 정적 검증. Java/Gradle 없이 실행 가능.
+"""번들 콘텐츠(dialogues.json + MP3) 정적 검증. Java/Gradle 없이 실행 가능.
 
-NHK 대본/MP3 파일은 앱에 포함하지 않는다. 이 스크립트는 공식 링크 메타데이터만 검사한다.
+NHK 공식 페이지에서 추출한 대본과 MP3를 개인용으로 앱 자산에 포함한다.
 """
 
 from __future__ import annotations
@@ -11,15 +11,11 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-CONTENT_PATH = ROOT / "app" / "src" / "main" / "assets" / "content" / "lessons.json"
-PAGE_PATTERN = re.compile(
-    r"^https://www3\.nhk\.or\.jp/nhkworld/lesson/ko/lessons/\d{2}\.html$"
-)
-AUDIO_PATTERN = re.compile(
-    r"^https://www3\.nhk\.or\.jp/nhkworld/lesson/ko/mp3/audio_lesson_\d{2}\.mp3$"
-)
+ASSETS = ROOT / "app" / "src" / "main" / "assets"
+CONTENT_PATH = ASSETS / "content" / "dialogues.json"
+AUDIO_PATTERN = re.compile(r"^audio/audio_lesson_\d{2}\.mp3$")
 EXPECTED_COUNT = 48
-FORBIDDEN_FIELDS = {"script", "transcript", "utterances", "dialogue", "text", "localPath"}
+MIN_MP3_BYTES = 10_000
 
 
 def main() -> int:
@@ -35,23 +31,21 @@ def main() -> int:
         print(f"[FAIL] JSON 파싱 오류: {exc}")
         return 1
 
-    lessons = bundle.get("lessons")
-    if not isinstance(lessons, list):
-        print("[FAIL] 'lessons' 배열이 없습니다.")
+    dialogues = bundle.get("dialogues")
+    if not isinstance(dialogues, list):
+        print("[FAIL] 'dialogues' 배열이 없습니다.")
         return 1
 
     ids: set[str] = set()
     numbers: list[int] = []
+    total_lines = 0
+    total_audio_bytes = 0
 
-    for index, item in enumerate(lessons):
-        label = f"lessons[{index}]"
+    for index, item in enumerate(dialogues):
+        label = f"dialogues[{index}]"
         if not isinstance(item, dict):
             errors.append(f"{label}: 객체가 아닙니다.")
             continue
-
-        forbidden = FORBIDDEN_FIELDS.intersection(item)
-        if forbidden:
-            errors.append(f"{label}: 대본/음성 복사 필드가 있습니다: {sorted(forbidden)}")
 
         item_id = item.get("id", "")
         if not isinstance(item_id, str) or not item_id:
@@ -61,34 +55,50 @@ def main() -> int:
         else:
             ids.add(item_id)
 
-        number = item.get("number")
+        number = item.get("order")
         if not isinstance(number, int) or number < 1:
-            errors.append(f"{label}: number는 1 이상의 정수여야 합니다.")
+            errors.append(f"{label}: order는 1 이상의 정수여야 합니다.")
         else:
             numbers.append(number)
             if item_id != f"lesson-{number:02d}":
-                errors.append(f"{label}: id와 number가 일치하지 않습니다.")
+                errors.append(f"{label}: id와 order가 일치하지 않습니다.")
 
-        title = item.get("title")
-        if not isinstance(title, str) or not title.strip():
+        if not isinstance(item.get("title"), str) or not item["title"].strip():
             errors.append(f"{label}: title이 비어 있습니다.")
+        if not isinstance(item.get("situation"), str) or not item["situation"].strip():
+            errors.append(f"{label}: situation이 비어 있습니다.")
 
-        page_url = item.get("pageUrl", "")
-        if not isinstance(page_url, str) or not PAGE_PATTERN.match(page_url):
-            errors.append(f"{label}: 공식 페이지 URL이 올바르지 않습니다: '{page_url}'")
-        elif number is not None and isinstance(number, int) and page_url.endswith(f"/{number:02d}.html"):
-            pass
-        elif isinstance(number, int):
-            errors.append(f"{label}: pageUrl의 강의 번호가 number와 다릅니다.")
+        audio = item.get("audioAsset", "")
+        if not isinstance(audio, str) or not AUDIO_PATTERN.match(audio):
+            errors.append(f"{label}: audioAsset 형식이 올바르지 않습니다: '{audio}'")
+        else:
+            mp3 = ASSETS / audio
+            if not mp3.is_file() or mp3.stat().st_size < MIN_MP3_BYTES:
+                errors.append(f"{label}: MP3 파일이 없거나 너무 작습니다: {audio}")
+            else:
+                total_audio_bytes += mp3.stat().st_size
+            if isinstance(number, int) and not audio.endswith(f"_{number:02d}.mp3"):
+                errors.append(f"{label}: MP3 번호가 order와 다릅니다.")
 
-        audio_url = item.get("audioUrl", "")
-        if not isinstance(audio_url, str) or not AUDIO_PATTERN.match(audio_url):
-            errors.append(f"{label}: 공식 MP3 URL이 올바르지 않습니다: '{audio_url}'")
-        elif isinstance(number, int) and not audio_url.endswith(f"_{number:02d}.mp3"):
-            errors.append(f"{label}: audioUrl의 강의 번호가 number와 다릅니다.")
+        utterances = item.get("utterances")
+        if not isinstance(utterances, list) or len(utterances) < 4:
+            errors.append(f"{label}: 대본은 최소 4줄이어야 합니다.")
+            continue
+        total_lines += len(utterances)
 
-    if len(lessons) != EXPECTED_COUNT:
-        errors.append(f"강의 개수: 기대 {EXPECTED_COUNT}, 실제 {len(lessons)}")
+        for u_index, utterance in enumerate(utterances):
+            u_label = f"{label}.utterances[{u_index}]"
+            if utterance.get("speaker") not in {"A", "B"}:
+                errors.append(f"{u_label}: speaker는 'A' 또는 'B'여야 합니다.")
+            for field in ("ja", "ko"):
+                value = utterance.get(field)
+                if not isinstance(value, str) or not value.strip():
+                    errors.append(f"{u_label}: {field}가 비어 있습니다.")
+            if not isinstance(utterance.get("polite"), bool):
+                errors.append(f"{u_label}: polite는 boolean이어야 합니다.")
+
+    if len(dialogues) != EXPECTED_COUNT:
+        errors.append(f"강의 개수: 기대 {EXPECTED_COUNT}, 실제 {len(dialogues)}")
     if sorted(numbers) != list(range(1, EXPECTED_COUNT + 1)):
         errors.append("강의 번호는 1부터 48까지 중복 없이 이어져야 합니다.")
 
@@ -98,8 +108,8 @@ def main() -> int:
             print(f"  - {error}")
         return 1
 
-    print(f"[OK] {len(lessons)}개 NHK 공식 강의 링크 검증 완료")
-    print("[OK] 대본/MP3 복사 필드 없음 (공식 URL만 보관)")
+    print(f"[OK] {len(dialogues)}개 NHK 강의 대본 검증 완료 ({total_lines}개 말풍선)")
+    print(f"[OK] MP3 {len(dialogues)}개 확인 — 총 {total_audio_bytes / 1024 / 1024:.1f} MB")
     return 0
 
 
