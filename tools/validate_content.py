@@ -1,17 +1,25 @@
-"""콘텐츠 번들(dialogues.json) 정적 검증. Java/Gradle 없이 실행 가능."""
+"""콘텐츠 번들(lessons.json) 정적 검증. Java/Gradle 없이 실행 가능.
+
+NHK 대본/MP3 파일은 앱에 포함하지 않는다. 이 스크립트는 공식 링크 메타데이터만 검사한다.
+"""
 
 from __future__ import annotations
 
 import json
+import re
 import sys
 from pathlib import Path
 
-VALID_MODES = {"GENERAL", "WORK", "STUDENT", "SHOP", "TRAVELER", "FAMILY"}
-EXPECTED_COUNT = 30
-DEFAULT_MODE = "GENERAL"
-
 ROOT = Path(__file__).resolve().parents[1]
-CONTENT_PATH = ROOT / "app" / "src" / "main" / "assets" / "content" / "dialogues.json"
+CONTENT_PATH = ROOT / "app" / "src" / "main" / "assets" / "content" / "lessons.json"
+PAGE_PATTERN = re.compile(
+    r"^https://www3\.nhk\.or\.jp/nhkworld/lesson/ko/lessons/\d{2}\.html$"
+)
+AUDIO_PATTERN = re.compile(
+    r"^https://www3\.nhk\.or\.jp/nhkworld/lesson/ko/mp3/audio_lesson_\d{2}\.mp3$"
+)
+EXPECTED_COUNT = 48
+FORBIDDEN_FIELDS = {"script", "transcript", "utterances", "dialogue", "text", "localPath"}
 
 
 def main() -> int:
@@ -27,65 +35,62 @@ def main() -> int:
         print(f"[FAIL] JSON 파싱 오류: {exc}")
         return 1
 
-    dialogues = bundle.get("dialogues")
-    if not isinstance(dialogues, list):
-        print("[FAIL] 'dialogues' 배열이 없습니다.")
+    lessons = bundle.get("lessons")
+    if not isinstance(lessons, list):
+        print("[FAIL] 'lessons' 배열이 없습니다.")
         return 1
 
     ids: set[str] = set()
-    mode_counts: dict[str, int] = {}
+    numbers: list[int] = []
 
-    for index, item in enumerate(dialogues):
-        label = f"dialogues[{index}]"
+    for index, item in enumerate(lessons):
+        label = f"lessons[{index}]"
+        if not isinstance(item, dict):
+            errors.append(f"{label}: 객체가 아닙니다.")
+            continue
+
+        forbidden = FORBIDDEN_FIELDS.intersection(item)
+        if forbidden:
+            errors.append(f"{label}: 대본/음성 복사 필드가 있습니다: {sorted(forbidden)}")
+
         item_id = item.get("id", "")
-        if not item_id:
+        if not isinstance(item_id, str) or not item_id:
             errors.append(f"{label}: id가 비어 있습니다.")
         elif item_id in ids:
             errors.append(f"{label}: 중복 id '{item_id}'")
         else:
             ids.add(item_id)
 
-        mode = item.get("mode")
-        if mode not in VALID_MODES:
-            errors.append(f"{label}: 알 수 없는 모드 '{mode}'")
+        number = item.get("number")
+        if not isinstance(number, int) or number < 1:
+            errors.append(f"{label}: number는 1 이상의 정수여야 합니다.")
         else:
-            mode_counts[mode] = mode_counts.get(mode, 0) + 1
+            numbers.append(number)
+            if item_id != f"lesson-{number:02d}":
+                errors.append(f"{label}: id와 number가 일치하지 않습니다.")
 
-        if not isinstance(item.get("situation"), str) or not item["situation"].strip():
-            errors.append(f"{label}: situation이 비어 있습니다.")
+        title = item.get("title")
+        if not isinstance(title, str) or not title.strip():
+            errors.append(f"{label}: title이 비어 있습니다.")
 
-        if not isinstance(item.get("order"), int) or item["order"] < 1:
-            errors.append(f"{label}: order는 1 이상의 정수여야 합니다.")
+        page_url = item.get("pageUrl", "")
+        if not isinstance(page_url, str) or not PAGE_PATTERN.match(page_url):
+            errors.append(f"{label}: 공식 페이지 URL이 올바르지 않습니다: '{page_url}'")
+        elif number is not None and isinstance(number, int) and page_url.endswith(f"/{number:02d}.html"):
+            pass
+        elif isinstance(number, int):
+            errors.append(f"{label}: pageUrl의 강의 번호가 number와 다릅니다.")
 
-        utterances = item.get("utterances")
-        if not isinstance(utterances, list) or not utterances:
-            errors.append(f"{label}: utterances가 비어 있습니다.")
-            continue
+        audio_url = item.get("audioUrl", "")
+        if not isinstance(audio_url, str) or not AUDIO_PATTERN.match(audio_url):
+            errors.append(f"{label}: 공식 MP3 URL이 올바르지 않습니다: '{audio_url}'")
+        elif isinstance(number, int) and not audio_url.endswith(f"_{number:02d}.mp3"):
+            errors.append(f"{label}: audioUrl의 강의 번호가 number와 다릅니다.")
 
-        if len(utterances) < 4:
-            errors.append(f"{label}: 대화는 최소 4줄(A/B 두 쌍)이어야 합니다. 실제 {len(utterances)}줄")
-
-        for u_index, utterance in enumerate(utterances):
-            u_label = f"{label}.utterances[{u_index}]"
-            speaker = utterance.get("speaker")
-            if speaker not in {"A", "B"}:
-                errors.append(f"{u_label}: speaker는 'A' 또는 'B'여야 합니다 (실제 '{speaker}')")
-            elif len(utterances) > u_index + 1:
-                next_speaker = utterances[u_index + 1].get("speaker")
-                if next_speaker == speaker:
-                    errors.append(f"{u_label}: 다음 줄과 speaker가 같습니다. A/B가 번갈아야 합니다.")
-            for field in ("ja", "ko", "romaji"):
-                value = utterance.get(field)
-                if not isinstance(value, str) or not value.strip():
-                    errors.append(f"{u_label}: {field}가 비어 있습니다.")
-            if not isinstance(utterance.get("polite"), bool):
-                errors.append(f"{u_label}: polite는 boolean이어야 합니다.")
-
-    if len(dialogues) != EXPECTED_COUNT:
-        errors.append(f"대화 개수: 기대 {EXPECTED_COUNT}, 실제 {len(dialogues)}")
-
-    if mode_counts.get(DEFAULT_MODE, 0) == 0:
-        errors.append(f"기본 모드 '{DEFAULT_MODE}'의 콘텐츠가 없습니다.")
+    if len(lessons) != EXPECTED_COUNT:
+        errors.append(f"강의 개수: 기대 {EXPECTED_COUNT}, 실제 {len(lessons)}")
+    if sorted(numbers) != list(range(1, EXPECTED_COUNT + 1)):
+        errors.append("강의 번호는 1부터 48까지 중복 없이 이어져야 합니다.")
 
     if errors:
         print(f"[FAIL] {len(errors)}건의 문제가 있습니다.")
@@ -93,9 +98,8 @@ def main() -> int:
             print(f"  - {error}")
         return 1
 
-    mode_summary = ", ".join(f"{key}={mode_counts[key]}" for key in sorted(mode_counts))
-    print(f"[OK] {len(dialogues)}개 대화 검증 완료 ({mode_summary})")
-    print(f"[OK] 기본 모드: {DEFAULT_MODE} ({mode_counts[DEFAULT_MODE]}개)")
+    print(f"[OK] {len(lessons)}개 NHK 공식 강의 링크 검증 완료")
+    print("[OK] 대본/MP3 복사 필드 없음 (공식 URL만 보관)")
     return 0
 
 

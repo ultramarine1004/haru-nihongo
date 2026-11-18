@@ -6,7 +6,6 @@ import com.haru.nihongo.data.content.ContentDataSource
 import com.haru.nihongo.data.local.AppDatabase
 import com.haru.nihongo.data.preferences.SettingsStore
 import com.haru.nihongo.data.repository.LearningRepository
-import com.haru.nihongo.domain.usecase.GetTodayDialogueUseCase
 
 /** Hilt 대신 사용하는 수동 DI 컨테이너. */
 class AppContainer(context: Context) {
@@ -27,6 +26,4 @@ class AppContainer(context: Context) {
         settingsStore = settingsStore,
         progressDao = database.progressDao(),
     )
-
-    val getTodayDialogue = GetTodayDialogueUseCase()
 }

@@ -4,7 +4,7 @@ import com.haru.nihongo.data.content.ContentDataSource
 import com.haru.nihongo.data.local.ProgressDao
 import com.haru.nihongo.data.local.ProgressEntity
 import com.haru.nihongo.data.preferences.SettingsStore
-import com.haru.nihongo.domain.model.Dialogue
+import com.haru.nihongo.domain.model.Lesson
 import com.haru.nihongo.domain.model.Mode
 import com.haru.nihongo.domain.model.Progress
 import com.haru.nihongo.domain.model.Settings
@@ -29,7 +29,7 @@ class LearningRepository(
         }
     }
 
-    fun dialogues(): List<Dialogue> = content.dialogues()
+    fun lessons(): List<Lesson> = content.lessons()
 
     suspend fun complete(date: String, count: Int, listened: Boolean, recorded: Boolean) {
         progressDao.upsert(
