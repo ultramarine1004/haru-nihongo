@@ -6,10 +6,12 @@
 
 ## 다운로드
 
-- **APK (v0.1.0):** [haru-nihongo-v0.1.0.apk](https://github.com/ultramarine1004/haru-nihongo/releases/latest/download/haru-nihongo-v0.1.0.apk)
+- **APK (v0.1.0):** [haru-nihongo-v0.1.0.apk](https://github.com/ultramarine1004/haru-nihongo/releases/latest/download/haru-nihongo-v0.1.0.apk) — 빌드: **2026-11-18 09:35 (KST)**
 - **최신 릴리스 / 변경 내역:** [GitHub Releases](https://github.com/ultramarine1004/haru-nihongo/releases/latest)
 
 서명된 release APK이며 Android 8.0 (minSdk 26) 이상에서 설치할 수 있습니다. 설치할 때 **"알 수 없는 출처의 앱 설치"**를 허용해야 합니다.
+
+> **릴리스 관리 규칙:** APK를 새로 빌드해 GitHub Release에 업로드할 때마다 위 APK 링크 옆의 빌드 날짜/시간을 최신 시각(KST)으로 반드시 갱신합니다.
 
 ## 확정 사항
 
