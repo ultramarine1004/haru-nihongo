@@ -1,4 +1,4 @@
-# 하루 일본어 대화 (Android)
+﻿# 하루 일본어 대화 (Android)
 
 50대 취미 학습자를 위한 **완전 무료 · 광고 없음 · 가입 없음 · 서버 없음** 일본어 회화 앱입니다.
 [NHK WORLD-JAPAN «일본말 첫걸음» 공식 강의](https://www3.nhk.or.jp/nhkworld/lesson/ko/lessons/) 48편의 **대본과 MP3를 추출해 앱에 번들**했습니다. 개인 학습용으로 사용합니다.
@@ -7,7 +7,7 @@
 
 ## 다운로드
 
-- **APK (v0.1.0):** [haru-nihongo-v0.1.0.apk](https://github.com/ultramarine1004/haru-nihongo/releases/latest/download/haru-nihongo-v0.1.0.apk)   Build : **2026-11-18 23:28 (KST)**
+- **APK (v0.1.0):** [haru-nihongo-v0.1.0.apk](https://github.com/ultramarine1004/haru-nihongo/releases/latest/download/haru-nihongo-v0.1.0.apk)   Build : **2026-11-19 23:23 (KST)**
 - **최신 릴리스 / 변경 내역:** [GitHub Releases](https://github.com/ultramarine1004/haru-nihongo/releases/latest)
 
 서명된 release APK이며 Android 8.0 (minSdk 26) 이상에서 설치할 수 있습니다. 설치할 때 **"알 수 없는 출처의 앱 설치"**를 허용해야 합니다.
