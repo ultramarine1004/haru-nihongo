@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+  width="32dp" height="32dp" viewBox="0 0 24 24"
+  fill="none" stroke="#596B87" stroke-width="1.8"
+  stroke-linecap="round" stroke-linejoin="round"
+  role="img" aria-label="listen headphones">
+
+  <path d="M3 13v-1a9 9 0 0 1 18 0v1"/>
+  <path d="M3 13h3v7H5a2 2 0 0 1-2-2v-5Z"/>
+  <path d="M21 13h-3v7h1a2 2 0 0 0 2-2v-5Z"/>
+</svg>

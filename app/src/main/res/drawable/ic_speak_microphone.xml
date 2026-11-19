@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- icons/bottom_icon/speak_microphone_24dp.svg 를 Android VectorDrawable로 변환 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- svg의 <rect x="9" y="2.5" width="6" height="12" rx="3"/> 을 캡슐 경로로 변환 -->
+    <path
+        android:pathData="M12 2.5 A3 3 0 0 1 15 5.5 V11.5 A3 3 0 0 1 12 14.5 A3 3 0 0 1 9 11.5 V5.5 A3 3 0 0 1 12 2.5 Z"
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#596B87"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <path
+        android:pathData="M5.5 11.5v1a6.5 6.5 0 0 0 13 0v-1"
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#596B87"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <path
+        android:pathData="M12 19v3M8.5 22h7"
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#596B87"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+</vector>

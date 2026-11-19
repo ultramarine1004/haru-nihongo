@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- icons/bottom_icon/play_recording_24dp.svg 를 Android VectorDrawable로 변환 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:pathData="M8 5.8a1.2 1.2 0 0 1 1.8-1l10 6.2a1.2 1.2 0 0 1 0 2L9.8 19.2a1.2 1.2 0 0 1-1.8-1V5.8Z"
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#596B87"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+</vector>

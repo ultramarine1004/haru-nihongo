@@ -16,6 +16,9 @@ class VoicePracticeController(private val context: Context) {
     private var player: MediaPlayer? = null
     private var recordFile: File? = null
 
+    /** 내 목소리 재생 상태. false는 일시정지·종료·오류를 모두 포함한다. */
+    var onPlaybackChanged: ((Boolean) -> Unit)? = null
+
     fun hasRecordPermission(): Boolean =
         ContextCompat.checkSelfPermission(context, Manifest.permission.RECORD_AUDIO) ==
             PackageManager.PERMISSION_GRANTED
@@ -59,19 +62,74 @@ class VoicePracticeController(private val context: Context) {
 
     fun playRecording(): Boolean {
         val file = recordFile?.takeIf { it.exists() && it.length() > 0L } ?: return false
-        player?.release()
-        player = MediaPlayer().apply {
+        stopRecordingPlayback()
+        val mediaPlayer = MediaPlayer().apply {
             setDataSource(file.absolutePath)
             prepare()
-            start()
+            setOnCompletionListener { onPlaybackChanged?.invoke(false) }
+            setOnErrorListener { _, _, _ ->
+                onPlaybackChanged?.invoke(false)
+                true
+            }
         }
+        player = mediaPlayer
+        mediaPlayer.start()
+        onPlaybackChanged?.invoke(true)
         return true
+    }
+
+    fun pauseRecordingPlayback() {
+        val current = player ?: return
+        try {
+            if (current.isPlaying) current.pause()
+        } catch (_: IllegalStateException) {
+            // 이미 종료된 플레이어는 무시한다.
+        }
+        onPlaybackChanged?.invoke(false)
+    }
+
+    fun resumeRecordingPlayback() {
+        val current = player ?: return
+        try {
+            if (!current.isPlaying) {
+                current.start()
+                onPlaybackChanged?.invoke(true)
+            }
+        } catch (_: IllegalStateException) {
+            // 이미 종료된 플레이어는 무시한다.
+        }
+    }
+
+    fun stopRecordingPlayback() {
+        player?.let { current ->
+            try {
+                if (current.isPlaying) current.stop()
+            } catch (_: IllegalStateException) {
+                // 이미 종료된 플레이어는 무시한다.
+            }
+            current.release()
+        }
+        player = null
+        onPlaybackChanged?.invoke(false)
+    }
+
+    /** 원형 프로그레스 링에 그대로 넘길 수 있는 실제 재생 위치(ms). */
+    fun currentPositionMs(): Int = try {
+        player?.currentPosition ?: 0
+    } catch (_: IllegalStateException) {
+        0
+    }
+
+    fun recordingDurationMs(): Int = try {
+        player?.duration ?: 0
+    } catch (_: IllegalStateException) {
+        0
     }
 
     fun release() {
         stopRecording()
-        player?.release()
-        player = null
+        stopRecordingPlayback()
+        onPlaybackChanged = null
     }
 
     private companion object {
